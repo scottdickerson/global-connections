@@ -3,6 +3,8 @@
     "id": 0,
     "person": "THE TUSKEGEE AIRMEN",
     "label": "Who Were They?",
+    "top": 200,
+    "left": 300,
     "thumbnail": "img/carousel/TuskegeeAirmen.png",
     "detailImages": [
       {
@@ -50,6 +52,8 @@
     "person": "MACK HOPKINS",
     "label": "Flight Instructor",
     "thumbnail": "img/carousel/Hopkins.png",
+    "top": 400,
+    "left": 300,
     "detailImages": [
       {
         "src": "img/hopkins-details/1-Hopkins.png",
@@ -116,6 +120,8 @@
     "person": "ROMEO WILLIAMS",
     "label": "Fighter Pilot",
     "thumbnail": "img/carousel/Williams.png",
+    "top": 600,
+    "left": 300,
     "detailImages": [
       {
         "src": "img/williams-details/1-Williams.png",
@@ -175,6 +181,8 @@
     "id": 3,
     "person": "FRED WEATHERSBY",
     "label": "Flight Crew",
+    "top": 800,
+    "left": 300,
     "thumbnail": "img/carousel/Weathersby.png",
     "detailImages": [
       {
@@ -220,6 +228,8 @@
     "person": "CHARLIE JOHNSON",
     "label": "Bomber Pilot",
     "thumbnail": "img/carousel/Johnson.png",
+    "top": 400,
+    "left": 600,
     "detailImages": [
       {
         "src": "img/johnson-details/1-Johnson.png",

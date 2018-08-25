@@ -1,10 +1,9 @@
 .topTitleText {
   margin-top: -3.5rem;
- 
 }
 .topTitleText.titleText {
-font-size: 65pt;
-padding-top: 2.0rem
+  font-size: 65pt;
+  padding-top: 2rem;
 }
 
 .topTitleImage {
@@ -16,5 +15,27 @@ padding-top: 2.0rem
   align-items: center;
 }
 .topTitleImage img {
- width: 90%
+  width: 90%;
+}
+
+.titleImage {
+  width: 100%;
+}
+
+.titleText {
+  text-align: center;
+  color: #f58f00;
+  text-transform: uppercase;
+  font-size: 80pt;
+  padding-top: 1rem;
+  font-family: GhostLight;
+  text-shadow: black 0.1em 0.1em 0.4em;
+}
+.touchText {
+  color: #d9d0ad;
+  font-size: 22pt;
+  font-family: LiberationSans;
+  text-align: center;
+  font-weight: 600;
+  padding-top: 2rem;
 }

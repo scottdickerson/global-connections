@@ -28,7 +28,7 @@
   height: 75vh;
   position: absolute;
   z-index: -1;
-  opacity: 0.60;
+  opacity: 0.75;
 }
 
 .bottom-enter {
@@ -45,8 +45,7 @@
   transform: translateY(0%);
 }
 .bottom-exit .siteDetailBackground {
-  background-image: url("../../img/Background.png");
-  opacity: 1;
+  opacity: 0.75;
   z-index: -1;
 }
 .bottom-exit-active {

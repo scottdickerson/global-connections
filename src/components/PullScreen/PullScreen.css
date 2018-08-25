@@ -29,25 +29,3 @@
   width: 100%;
   z-index: -1;
 }
-
-.titleImage {
-  width: 100%;
-}
-
-.titleText {
-  text-align: center;
-  color: #f58f00;
-  text-transform: uppercase;
-  font-size: 80pt;
-  padding-top: 1rem;
-  font-family: GhostLight;
-  text-shadow: black 0.1em 0.1em 0.4em;
-}
-.touchText {
-  color: #d9d0ad;
-  font-size: 22pt;
-  font-family: LiberationSans;
-  text-align: center;
-  font-weight: 600;
-  padding-top: 2rem;
-}

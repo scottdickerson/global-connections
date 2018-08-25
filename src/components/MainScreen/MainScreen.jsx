@@ -4,9 +4,6 @@ import PropTypes from "prop-types";
 import SiteCarousel from "../../components/SiteCarousel/SiteCarousel";
 import SiteStar from "../../components/SiteStar/SiteStar";
 import SiteSchema from "../../schemas/site";
-import Intro from "../../components/Intro/Intro";
-
-import introJson from "../../sites/intro.json";
 
 import "./MainScreen.css";
 
@@ -21,7 +18,6 @@ const MainScreen = props => {
   const { sites, selectedSite, onSiteTapped, onSiteChanged } = props;
   return (
     <div className="mainScreen">
-      <Intro {...introJson} />
       {sites[0].top // If I have locations on the map
         ? sites.map(site => (
           <SiteStar

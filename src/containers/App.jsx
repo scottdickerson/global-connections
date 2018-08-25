@@ -1,17 +1,15 @@
-import React, { Component, Fragment } from "react";
+import React, { Component } from "react";
 
 import "./App.css";
 
 import sites from "../sites/globalSites.json";
 import MainScreen from "../components/MainScreen/MainScreen";
 import TopTitle from "../components/TopTitle/TopTitle";
-import PullScreen from "../components/PullScreen/PullScreen";
 import SiteDetails from "../components/SiteDetails/SiteDetails";
 
 class App extends Component {
   state = {
     selectedSite: sites[0],
-    isPullShowing: true,
     isSiteOpen: false
   };
 
@@ -36,7 +34,7 @@ class App extends Component {
   };
 
   resetState = () => {
-    this.setState({ isSiteOpen: false, isPullShowing: true });
+    this.setState({ isSiteOpen: false });
   };
 
   handleSiteToggle = () => {
@@ -50,34 +48,24 @@ class App extends Component {
     this.setState({ selectedSite: sites[site] });
   };
 
-  handleTogglePull = () => {
-    this.setState(state => ({ isPullShowing: !state.isPullShowing }));
-  };
-
   render() {
-    const { isPullShowing, isSiteOpen, selectedSite } = this.state;
+    const { isSiteOpen, selectedSite } = this.state;
     return (
       <div className="app">
-        {isPullShowing ? (
-          <PullScreen onClick={this.handleTogglePull} />
-        ) : (
-          <Fragment>
-            <TopTitle />
-            {!isSiteOpen ? (
-              <MainScreen
-                sites={sites}
-                selectedSite={selectedSite}
-                onSiteTapped={this.handleSiteToggle}
-                onSiteChanged={this.handleSiteChanged}
-              />
-            ) : null}
-            <SiteDetails
-              isOpen={isSiteOpen}
-              onCloseSite={this.handleSiteToggle}
-              selectedSite={selectedSite}
-            />
-          </Fragment>
-        )}
+        <TopTitle>Global Connections</TopTitle>
+        {!isSiteOpen ? (
+          <MainScreen
+            sites={sites}
+            selectedSite={selectedSite}
+            onSiteTapped={this.handleSiteToggle}
+            onSiteChanged={this.handleSiteChanged}
+          />
+        ) : null}
+        <SiteDetails
+          isOpen={isSiteOpen}
+          onCloseSite={this.handleSiteToggle}
+          selectedSite={selectedSite}
+        />
       </div>
     );
   }
