@@ -7,9 +7,11 @@ class MainScreen extends Component {
   state = {
     selectedSite: sites[0]
   };
+
   handleSiteChanged = (oldsite, site) => {
     this.setState({ selectedSite: sites[site] });
   };
+
   render() {
     const { onSiteTapped } = this.props; // eslint-disable-line react/prop-types
     const { selectedSite } = this.state;

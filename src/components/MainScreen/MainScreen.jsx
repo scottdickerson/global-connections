@@ -1,8 +1,8 @@
 import React from "react";
 import PropTypes from "prop-types";
 
-import SiteCarousel from "../../components/SiteCarousel/SiteCarousel";
-import SiteStar from "../../components/SiteStar/SiteStar";
+import SiteCarousel from "../SiteCarousel/SiteCarousel";
+import SiteStar from "../SiteStar/SiteStar";
 import SiteSchema from "../../schemas/site";
 
 import "./MainScreen.css";

@@ -21,6 +21,7 @@ class SiteDetails extends Component {
       moreDetails: false
     };
   }
+
   onImageChanged = image => {
     this.setState({
       imageIndex: image

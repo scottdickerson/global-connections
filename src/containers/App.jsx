@@ -38,9 +38,10 @@ class App extends Component {
   };
 
   handleSiteToggle = () => {
+    const { isSiteOpen } = this.state;
     setTimeout(
       () => this.setState(state => ({ isSiteOpen: !state.isSiteOpen })),
-      !this.state.isSiteOpen ? 1000 : 0 // trigger with slight delay when opening
+      !isSiteOpen ? 1000 : 0 // trigger with slight delay when opening
     );
   };
 

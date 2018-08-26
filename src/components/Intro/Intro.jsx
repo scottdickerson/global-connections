@@ -9,21 +9,27 @@ const propTypes = {
   callToAction: PropTypes.string.isRequired
 };
 
-const Intro = props => (
-  <div className="intro">
-    <div className="introText">
-      {props.intro.split(";").map((line, index, { length }) => (
-        <span>
-          {`${line}${index + 1 !== length ? ";" : ""}`}
-          <br />
-        </span>
-      ))}
+const Intro = props => {
+  const { intro, details, callToAction } = props;
+  return (
+    <div className="intro">
+      <div className="introText">
+        {intro.split(";").map((line, index, { length }) => (
+          <span>
+            {`${line}${index + 1 !== length ? ";" : ""}`}
+            <br />
+          </span>
+        ))}
+      </div>
+      <div className="introDetails">
+        <div className="introDetailsText">
+          {details}
+          {callToAction}
+        </div>
+      </div>
     </div>
-    <div className="introDetails">
-      <div className="introDetailsText">{props.details} {props.callToAction}</div>
-    </div>
-  </div>
-);
+  );
+};
 
 Intro.propTypes = propTypes;
 

@@ -1,15 +1,15 @@
-import React from 'react';
-import PropTypes from 'prop-types';
+import React from "react";
+import PropTypes from "prop-types";
 
-import './SiteStar.css';
+import "./SiteStar.css";
 
-const SiteStar = (props) => {
+const SiteStar = props => {
   const { active, top, left } = props;
-  const imgSrc = active ? 'Star-LIT.png' : 'Star-50percentLIT.png';
+  const imgSrc = active ? "Star-LIT.png" : "Star-50percentLIT.png";
   const style = {
-    position: 'absolute',
+    position: "absolute",
     top,
-    left,
+    left
   };
   return (
     <img
@@ -22,9 +22,9 @@ const SiteStar = (props) => {
 };
 
 SiteStar.propTypes = {
-  top: PropTypes.string.isRequired,
-  left: PropTypes.string.isRequired,
-  active: PropTypes.bool.isRequired,
+  top: PropTypes.number.isRequired,
+  left: PropTypes.number.isRequired,
+  active: PropTypes.bool.isRequired
 };
 
 export default SiteStar;

@@ -11,12 +11,15 @@ const defaultProps = {
   imageURL: "img/main-screen/FlyingHigherTitle.png",
   children: "Flying Higher"
 };
-const TopTitle = props => (
-  <div className="topTitleImage">
-    <img width="100%" src={props.imageURL} alt="title" />
-    <div className="titleText topTitleText">{props.children}</div>
-  </div>
-);
+const TopTitle = props => {
+  const { imageURL, children } = props;
+  return (
+    <div className="topTitleImage">
+      <img width="100%" src={imageURL} alt="title" />
+      <div className="titleText topTitleText">{children}</div>
+    </div>
+  );
+};
 
 TopTitle.propTypes = propTypes;
 TopTitle.defaultProps = defaultProps;
