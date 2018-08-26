@@ -10,42 +10,35 @@
       {
         "src": "img/tuskegee-details/1-Tuskegee.png",
         "title": "In Training",
-        "caption":
-          "The Tuskegee Airmen were dedicated, patriotic young men who become the United States’ first black military airmen. In 1941, after passing rigorous entrance exams, the first group of African American aviation cadets began their training at Tuskegee Army Air Field in Alabama.",
+        "caption": "The Tuskegee Airmen were dedicated, patriotic young men who become the United States’ first black military airmen. In 1941, after passing rigorous entrance exams, the first group of African American aviation cadets began their training at Tuskegee Army Air Field in Alabama.",
         "credit": "FIRST CLASS OF TUSKEGEE CADETS, TUSKEGEE AIR FIELD, 1941"
       },
       {
         "src": "img/tuskegee-details/2-Tuskegee.png",
         "title": "It Takes a Team",
-        "caption":
-          "In addition to pilots, Black navigators, bombardiers, gunnery crews, and mechanics were also trained at segregated bases across the nation. All are considered Tuskegee Airmen.",
-        "credit":
-          "STAFF SGT. JAMES McGEE WORKING ON P-39, ITALY, 1944 | U.S. AIR FORCE"
+        "caption": "In addition to pilots, Black navigators, bombardiers, gunnery crews, and mechanics were also trained at segregated bases across the nation. All are considered Tuskegee Airmen.",
+        "credit": "STAFF SGT. JAMES McGEE WORKING ON P-39, ITALY, 1944 | U.S. AIR FORCE"
       },
       {
         "src": "img/tuskegee-details/3-Tuskegee.png",
         "title": "Legends & Heroes",
-        "caption":
-          "The 99th Fighter Squadron flew aircraft in combat over North Africa, Sicily and Italy. They flew alongside heavy bombers, defending them against enemy aircraft. The 99th became famous for flying 200 of their 205 missions without the loss of a single bomber! These heroes had the best record of any fighter group — leading to the legend that they “never lost a bomber.”",
-        "credit":
-          "1st LT. LEE RAYFORD OF THE 99th FIGHTER SQUADRON, 1940s | NATIONAL ARCHIVES"
+        "caption": "The 99th Fighter Squadron flew aircraft in combat over North Africa, Sicily and Italy. They flew alongside heavy bombers, defending them against enemy aircraft. The 99th became famous for flying 200 of their 205 missions without the loss of a single bomber! These heroes had the best record of any fighter group — leading to the legend that they “never lost a bomber.”",
+        "credit": "1st LT. LEE RAYFORD OF THE 99th FIGHTER SQUADRON, 1940s | NATIONAL ARCHIVES"
       },
       {
         "src": "img/tuskegee-details/4-Tuskegee.png",
         "title": "Fight & Fury",
-        "caption":
-          "The 332nd Fighter Group, known as the “Red Tails” defended their bombers fiercely. In 1945, they shot down or damaged eight, technologically-advanced German jet fighters. Because of their reputation for tenacity, enemy fighter pilots were less likely to attack a bomber if it was escorted by the “Red Tails.”",
-        "credit":
-          "332nd FLEW P-51 MUSTANG WITH DISTINCTIVE MARKINGS, 1940s | U.S. AIR FORCE"
+        "caption": "The 332nd Fighter Group, known as the “Red Tails” defended their bombers fiercely. In 1945, they shot down or damaged eight, technologically-advanced German jet fighters. Because of their reputation for tenacity, enemy fighter pilots were less likely to attack a bomber if it was escorted by the “Red Tails.”",
+        "credit": "332nd FLEW P-51 MUSTANG WITH DISTINCTIVE MARKINGS, 1940s | U.S. AIR FORCE"
       },
       {
         "src": "img/tuskegee-details/5-Tuskegee.png",
         "title": "A Legacy of Honor",
-        "caption":
-          "The outstanding record of black airmen in World War II stood in stark opposition to racist stereotypes of the time. Tuskegee Airmen had to fight the enemy abroad and then fight prejudice and bigotry at home. Their accomplishments and dignity helped lead to social change as the military, and later America, moved toward integration and equity.",
+        "caption": "The outstanding record of black airmen in World War II stood in stark opposition to racist stereotypes of the time. Tuskegee Airmen had to fight the enemy abroad and then fight prejudice and bigotry at home. Their accomplishments and dignity helped lead to social change as the military, and later America, moved toward integration and equity.",
         "credit": "TUSKEGEE AIRMEN, 1942 | LIBRARY OF CONGRESS"
       }
-    ]
+    ],
+    "learnMore": "More Details"
   },
   {
     "id": 1,
@@ -58,59 +51,49 @@
       {
         "src": "img/hopkins-details/1-Hopkins.png",
         "title": "Wiley Graduate",
-        "caption":
-          "Mack Hopkins grew up in Marshall, Texas. His parents taught at Wiley University. In 1942, Mack graduated from Wiley. Soon afterwards, he qualified to join the Tuskegee Airmen.",
+        "caption": "Mack Hopkins grew up in Marshall, Texas. His parents taught at Wiley University. In 1942, Mack graduated from Wiley. Soon afterwards, he qualified to join the Tuskegee Airmen.",
         "credit": "WILEY GRADUATING CLASS, 1942 | HCHM COLLECTIONS"
       },
       {
         "src": "img/hopkins-details/2-Hopkins.png",
         "title": "Top of the Class",
-        "caption":
-          "Mack and his fellow cadets had to study and train in a rigorous program. Because of restrictive quotas placed on black pilots, only about half earned their wings. Mack was at the top of his class!",
-        "credit":
-          "MACK HOPKINS (3rd FROM LEFT) AND COLLEAGUES, 1940s | HCHM COLLECTIONS"
+        "caption": "Mack and his fellow cadets had to study and train in a rigorous program. Because of restrictive quotas placed on black pilots, only about half earned their wings. Mack was at the top of his class!",
+        "credit": "MACK HOPKINS (3rd FROM LEFT) AND COLLEAGUES, 1940s | HCHM COLLECTIONS"
       },
       {
         "src": "img/hopkins-details/3-Hopkins.png",
         "title": "Flight Instructor",
-        "caption":
-          "Because of his skills, Mack Hopkins became one of the military’s first black flight instructors. While the other pilots he’d trained with went off to war, Mack stayed behind and trained hundreds more talented men.",
+        "caption": "Because of his skills, Mack Hopkins became one of the military’s first black flight instructors. While the other pilots he’d trained with went off to war, Mack stayed behind and trained hundreds more talented men.",
         "credit": "MACK HOPKINS WITH COLLEAGUES, 1940s | HCHM COLLECTIONS"
       },
       {
         "src": "img/hopkins-details/4-Hopkins.png",
         "title": "Photographer",
-        "caption":
-          "Mack loved photography and captured many images of life at the Tuskegee Army Airfield. He also used his skills in flight as an aerial photographer.",
+        "caption": "Mack loved photography and captured many images of life at the Tuskegee Army Airfield. He also used his skills in flight as an aerial photographer.",
         "credit": "MACK HOPKINS WITH CAMERA, 1940s | HCHM COLLECTIONS"
       },
       {
         "src": "img/hopkins-details/5-Hopkins.png",
         "title": "Play Ball!",
-        "caption":
-          "Mack Hopkins captured this image of the Tuskegee Army Airfield baseball team. Do you think the team includes both white and black servicemen? A few years after this photo was taken, Jackie Robinson officially integrated Major League baseball.",
+        "caption": "Mack Hopkins captured this image of the Tuskegee Army Airfield baseball team. Do you think the team includes both white and black servicemen? A few years after this photo was taken, Jackie Robinson officially integrated Major League baseball.",
         "credit": "TUSKEGEE AIRMEN PLAYING BASEBALL, 1940s | HCHM COLLECTIONS"
       },
       {
         "src": "img/hopkins-details/6-Hopkins.png",
         "title": "Living with Discrimination",
-        "caption":
-          "Mack Hopkins served as an officer in the Tuskegee Airmen, training pilots for the duration of the war. When the war was over, Mack pursued a career in aerospace engineering. Black scientists were not given the same opportunities as their white peers. Ultimately, Mack took a job as a postman in California.",
+        "caption": "Mack Hopkins served as an officer in the Tuskegee Airmen, training pilots for the duration of the war. When the war was over, Mack pursued a career in aerospace engineering. Black scientists were not given the same opportunities as their white peers. Ultimately, Mack took a job as a postman in California.",
         "credit": "MACK HOPKINS WITH COLLEAGUES, 1940s | HCHM COLLECTIONS"
       },
       {
         "src": "img/hopkins-details/7-Hopkins.png",
         "title": "Still Flying",
-        "caption":
-          "No airline would hire Mack or any of the pilots he trained to be commercial pilots. Refusing to be grounded, Mack bought a small plane and started the Fleet Wing Flying Club in Compton, California.",
-        "credit":
-          "MACK HOPKINS WITH TAYLOR CRAFT AIRPLANE, 1955 | HCHM COLLECTIONS"
+        "caption": "No airline would hire Mack or any of the pilots he trained to be commercial pilots. Refusing to be grounded, Mack bought a small plane and started the Fleet Wing Flying Club in Compton, California.",
+        "credit": "MACK HOPKINS WITH TAYLOR CRAFT AIRPLANE, 1955 | HCHM COLLECTIONS"
       },
       {
         "src": "img/hopkins-details/8-Hopkins.png",
         "title": "Hometown Hero",
-        "caption":
-          "In retirement, Mack went back to work — this time as an aerospace engineer! He worked on NASA projects, military projects and on commercial satellites. Later, he returned to his home in Harrison County, serving on the school board and sharing his experiences with a new generation of talented young people.",
+        "caption": "In retirement, Mack went back to work — this time as an aerospace engineer! He worked on NASA projects, military projects and on commercial satellites. Later, he returned to his home in Harrison County, serving on the school board and sharing his experiences with a new generation of talented young people.",
         "credit": "MACK HOPKINS, 1940s | HCHM COLLECTIONS"
       }
     ]
@@ -126,53 +109,43 @@
       {
         "src": "img/williams-details/1-Williams.png",
         "title": "First to Fly",
-        "caption":
-          "Romeo Williams grew up in Marshall where his parents ran a funeral home. In 1941, he graduated from Bishop College. He was the first black Texan to pass the Army Air Corps exam and qualify to become a flight cadet.",
+        "caption": "Romeo Williams grew up in Marshall where his parents ran a funeral home. In 1941, he graduated from Bishop College. He was the first black Texan to pass the Army Air Corps exam and qualify to become a flight cadet.",
         "credit": "ROMEO WILLIAMS, 1942 | HCHM COLLECTIONS"
       },
       {
         "src": "img/williams-details/2-Williams.png",
         "title": "Taking Flight",
-        "caption":
-          "In 1943, Romeo Williams graduated, earning the rank of Second Lieutenant and his pilot’s wings. Due to strict racial quotas, only about half of flight cadets achieved this status.",
-        "credit":
-          "ROMEO WILLIAMS (STANDING, FAR RIGHT) AND TUSKEGEE AIRMEN, 1943 | HCHM COLLECTIONS"
+        "caption": "In 1943, Romeo Williams graduated, earning the rank of Second Lieutenant and his pilot’s wings. Due to strict racial quotas, only about half of flight cadets achieved this status.",
+        "credit": "ROMEO WILLIAMS (STANDING, FAR RIGHT) AND TUSKEGEE AIRMEN, 1943 | HCHM COLLECTIONS"
       },
       {
         "src": "img/williams-details/3-Williams.png",
         "title": "Wasted Talent?",
-        "caption":
-          "Like the majority of Tuskegee Airmen pilots, Romeo was denied the opportunity to fly in combat. Romeo’s assignments included ferrying aircraft to different bases throughout the country. Many saw this discrimination against black servicemen as wasteful and wrong.",
-        "credit":
-          "ROMEO WILLIAMS (2nd FROM RIGHT) AND TUSKEGEE AIRMEN, 1943 | HCHM COLLECTIONS"
+        "caption": "Like the majority of Tuskegee Airmen pilots, Romeo was denied the opportunity to fly in combat. Romeo’s assignments included ferrying aircraft to different bases throughout the country. Many saw this discrimination against black servicemen as wasteful and wrong.",
+        "credit": "ROMEO WILLIAMS (2nd FROM RIGHT) AND TUSKEGEE AIRMEN, 1943 | HCHM COLLECTIONS"
       },
       {
         "src": "img/williams-details/4-Williams.png",
         "title": "From Aviator to Advocate",
-        "caption":
-          "After the war, Romeo became a Civil Rights lawyer. Romeo was part of the Dallas law firm that argued Sweatt v. Painter before the United States Supreme Court — successfully ending segregation at the University of Texas’ Law School.",
-        "credit":
-          "HEMAN MARION SWEATT WITH NAACP OFFICIALS, 1950 | HCHM COLLECTIONS"
+        "caption": "After the war, Romeo became a Civil Rights lawyer. Romeo was part of the Dallas law firm that argued Sweatt v. Painter before the United States Supreme Court — successfully ending segregation at the University of Texas’ Law School.",
+        "credit": "HEMAN MARION SWEATT WITH NAACP OFFICIALS, 1950 | HCHM COLLECTIONS"
       },
       {
         "src": "img/williams-details/5-Williams.png",
         "title": "Change Begins at Home",
-        "caption":
-          "In 1956, Romeo moved home to Marshall and established his law office. Marshall was still deeply segregated. In 1960, Romeo helped students at Wiley and Bishop Colleges to organize peaceful protests against segregation.",
+        "caption": "In 1956, Romeo moved home to Marshall and established his law office. Marshall was still deeply segregated. In 1960, Romeo helped students at Wiley and Bishop Colleges to organize peaceful protests against segregation.",
         "credit": "STUDENTS PRAY DURING PROTEST, 1960 | HCHM COLLECTIONS"
       },
       {
         "src": "img/williams-details/6-Williams.png",
         "title": "Fighting for Justice",
-        "caption":
-          "Many of the student protesters were arrested. Romeo Williams served as their lawyer. He encouraged Marshall’s black community to help bail the students out of jail and garnered additional support from the NAACP.",
+        "caption": "Many of the student protesters were arrested. Romeo Williams served as their lawyer. He encouraged Marshall’s black community to help bail the students out of jail and garnered additional support from the NAACP.",
         "credit": "STUDENT PROTESTORS WITH POLICE, 1960 | HCHM COLLECTIONS"
       },
       {
         "src": "img/williams-details/7-Williams.png",
         "title": "Losing a Legend",
-        "caption":
-          "Romeo was driving two of his young clients back from a trial at the Marshall courthouse when his car was hit by a switch engine on the Evans Street railroad crossing. Romeo and one of the students, Mattie Mae Etta Johnson, were killed. Soon afterward, the convictions of the student protestors were reversed and dismissed.",
+        "caption": "Romeo was driving two of his young clients back from a trial at the Marshall courthouse when his car was hit by a switch engine on the Evans Street railroad crossing. Romeo and one of the students, Mattie Mae Etta Johnson, were killed. Soon afterward, the convictions of the student protestors were reversed and dismissed.",
         "credit": "ROMEO WILLIAMS AT CITY COURT, 1960"
       }
     ]
@@ -188,37 +161,31 @@
       {
         "src": "img/weathersby-details/1-Weathersby.png",
         "title": "Staff Sergeant Weathersby",
-        "caption":
-          "Fred Weathersby grew up in Marshall, Texas and joined the Tuskegee Airmen, where he earned the rank of Staff Sergeant and trained as a part of a flight crew.",
-        "credit":
-          "FRED WEATHERSBY (LEFT) AND MACK HOPKINS, 1940s | HCHM COLLECTIONS"
+        "caption": "Fred Weathersby grew up in Marshall, Texas and joined the Tuskegee Airmen, where he earned the rank of Staff Sergeant and trained as a part of a flight crew.",
+        "credit": "FRED WEATHERSBY (LEFT) AND MACK HOPKINS, 1940s | HCHM COLLECTIONS"
       },
       {
         "src": "img/weathersby-details/2-Weathersby.png",
         "title": "A Team effort",
-        "caption":
-          "Although most people are more familiar with the story of the Tuskegee pilots, there were over 14,000 servicemen who served as pilots, bombardiers, navigators, flight trainers, mechanics and support personnel.",
+        "caption": "Although most people are more familiar with the story of the Tuskegee pilots, there were over 14,000 servicemen who served as pilots, bombardiers, navigators, flight trainers, mechanics and support personnel.",
         "credit": "NAVIGATORS, 1944 | NARA"
       },
       {
         "src": "img/weathersby-details/3-Weathersby.png",
         "title": "In Flight Service",
-        "caption":
-          "As part of the flight crew, Fred Weathersby learned to provide tactical and operational support for missions.",
+        "caption": "As part of the flight crew, Fred Weathersby learned to provide tactical and operational support for missions.",
         "credit": "FRED WEATHERSBY IN TUSKEGEE, 1940s | HCHM COLLECTIONS"
       },
       {
         "src": "img/weathersby-details/4-Weathersby.png",
         "title": "Support Service",
-        "caption":
-          "Women worked on post at Tuskegee Airfield. Local Tuskegee Airman, Mack Hopkins, saved this picture of civilian and military staff attending the “medic’s dance.”",
+        "caption": "Women worked on post at Tuskegee Airfield. Local Tuskegee Airman, Mack Hopkins, saved this picture of civilian and military staff attending the “medic’s dance.”",
         "credit": "MEDIC’S DANCE, 1940s"
       },
       {
         "src": "img/weathersby-details/5-Weathersby.png",
         "title": "Missing History",
-        "caption":
-          "Sadly, the Harrison County Historical Museum knows very little about Fred Weathersby. If you can help tell his story, please contact museu m staff.",
+        "caption": "Sadly, the Harrison County Historical Museum knows very little about Fred Weathersby. If you can help tell his story, please contact museu m staff.",
         "credit": ""
       }
     ]
@@ -234,53 +201,44 @@
       {
         "src": "img/johnson-details/1-Johnson.png",
         "title": "Where’s Charlie?",
-        "caption":
-          "Marshall native, Charlie Johnson, joined the Tuskegee Airmen and trained as a pilot. We have no known photos of Charlie, but he may be the man labeled “Johnson,” (kneeling, 4th from right) in this photo from Mack Hopkin’s scrapbook.",
+        "caption": "Marshall native, Charlie Johnson, joined the Tuskegee Airmen and trained as a pilot. We have no known photos of Charlie, but he may be the man labeled “Johnson,” (kneeling, 4th from right) in this photo from Mack Hopkin’s scrapbook.",
         "credit": "GROUP PHOTO, TUSKEGEE AIRMEN, 1940s | HCHM COLLECTIONS"
       },
       {
         "src": "img/johnson-details/2-Johnson.png",
         "title": "Bomber Pilot",
-        "caption":
-          "Charlie Johnson was one of a select group of Tuskegee pilots chosen to be trained to fly the enormous B-25 bomber. Mack Hopkins saved this picture of the pilots in front of their training aircraft before they left Tuskegee for their new assignment as part of the 477th bomber squadron.",
+        "caption": "Charlie Johnson was one of a select group of Tuskegee pilots chosen to be trained to fly the enormous B-25 bomber. Mack Hopkins saved this picture of the pilots in front of their training aircraft before they left Tuskegee for their new assignment as part of the 477th bomber squadron.",
         "credit": "B-25 PILOTS, 1940s | HCHM COLLECTIONS"
       },
       {
         "src": "img/johnson-details/3-Johnson.png",
         "title": "Facing Racism",
-        "caption":
-          "Veteran Tuskegee airmen and freshly trained pilots joined the 477th, led by Colonel Selway. He did not support the idea of an integrated military and actively worked against the 477th. He encouraged bigoted attitudes, provided inadequate facilities, and only appointed whites to leadership positions.",
+        "caption": "Veteran Tuskegee airmen and freshly trained pilots joined the 477th, led by Colonel Selway. He did not support the idea of an integrated military and actively worked against the 477th. He encouraged bigoted attitudes, provided inadequate facilities, and only appointed whites to leadership positions.",
         "credit": "COLONEL ROBERT R. SELWAY REVIEWS THE 477th, 1940s | NARA"
       },
       {
         "src": "img/johnson-details/4-Johnson.png",
         "title": "Unfair Segregation",
-        "caption":
-          "The 477th was under the command of Major General Frank Hunter, who told them, “This is my base and, as long as I am in command, there will be no social mixing of the white and colored officers. The single Officers Club on base will be used solely by white officers.” According to military code, the black pilots and officers should have been admitted to the club.",
+        "caption": "The 477th was under the command of Major General Frank Hunter, who told them, “This is my base and, as long as I am in command, there will be no social mixing of the white and colored officers. The single Officers Club on base will be used solely by white officers.” According to military code, the black pilots and officers should have been admitted to the club.",
         "credit": "PILOTS AND GROUND OFFICERS IN FRONT OF BOMBER, 1940s | NARA"
       },
       {
         "src": "img/johnson-details/5-Johnson.png",
         "title": "Civil Disobedience",
-        "caption":
-          "Knowing that their commanders, Selway and Hunter, were in violation of military rules, officers of the 477th, including Charlie Johnson, staged a peaceful protest. They entered an officer’s club at Freemen Field and refused to leave. Selway had them arrested!",
-        "credit":
-          "PROTESTERS BEING TRANSFERRED TO AWAIT TRIAL, 1945 | LIBRARY OF CONGRESS"
+        "caption": "Knowing that their commanders, Selway and Hunter, were in violation of military rules, officers of the 477th, including Charlie Johnson, staged a peaceful protest. They entered an officer’s club at Freemen Field and refused to leave. Selway had them arrested!",
+        "credit": "PROTESTERS BEING TRANSFERRED TO AWAIT TRIAL, 1945 | LIBRARY OF CONGRESS"
       },
       {
         "src": "img/johnson-details/6-Johnson.png",
         "title": "A Step Forward",
-        "caption":
-          "Over a hundred, black officers participated in the “Freeman Field Mutiny.” Ultimately, their protest was successful. General George Marshall ordered the officers released. Selway lost his command and the Armed forces took another step towards full integration. The 477th became a model for future peaceful protests in the Civil Rights Movement.",
+        "caption": "Over a hundred, black officers participated in the “Freeman Field Mutiny.” Ultimately, their protest was successful. General George Marshall ordered the officers released. Selway lost his command and the Armed forces took another step towards full integration. The 477th became a model for future peaceful protests in the Civil Rights Movement.",
         "credit": "MEMBERS OF THE 477th, 1940s | NARA"
       },
       {
         "src": "img/johnson-details/7-Johnson.png",
         "title": "Coming Home",
-        "caption":
-          "Charlie Johnson came home to Marshall and enrolled at Wiley college. He worked as the first black salesman at Manly’s auto store downtown while he finished his degree. After graduation, Charlie became a flight instructor at Sheppard Air Force Base in Wichita Falls. After his death in 1973, his brother, fellow veteran Walter Johnson, kept his memory alive.",
-        "credit":
-          "WALTER JOHNSON WITH PORTRAITS OF CHARLIE JOHNSON, MARSHALL NEWS MESSENGER, APRIL 4, 2018"
+        "caption": "Charlie Johnson came home to Marshall and enrolled at Wiley college. He worked as the first black salesman at Manly’s auto store downtown while he finished his degree. After graduation, Charlie became a flight instructor at Sheppard Air Force Base in Wichita Falls. After his death in 1973, his brother, fellow veteran Walter Johnson, kept his memory alive.",
+        "credit": "WALTER JOHNSON WITH PORTRAITS OF CHARLIE JOHNSON, MARSHALL NEWS MESSENGER, APRIL 4, 2018"
       }
     ]
   }

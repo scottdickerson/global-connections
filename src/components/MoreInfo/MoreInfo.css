@@ -14,13 +14,14 @@
 
 .moreInfoImage {
   text-align: center;
+  margin-top: -1.5rem;
 }
 
 .moreInfoPerson {
-  font-family: GhostLight;
-  font-size: 1.25rem;
-  font-weight: 700;
-  letter-spacing: 2px;
+  font-family: LiberationSans;
+  font-size: 24px;
+  font-weight: 600;
+  letter-spacing: 1px;
   text-shadow: black 0.1em 0.1em 0.4em;
   text-align: center;
 }

@@ -48,13 +48,13 @@
 .imageTitle {
   font-size: 24px;
   font-family: LiberationSans;
-  font-weight:600;
+  font-weight: 600;
   margin: 2rem 0rem 1.5rem;
 }
 .imageCaption {
   font-size: 18px;
   height: 170px;
-  font-weight:200;
+  font-weight: 200;
   line-height: 1.5rem;
 }
 
@@ -71,4 +71,5 @@
   justify-content: flex-end;
   width: 85%;
   padding-bottom: 40px;
+  cursor: pointer;
 }

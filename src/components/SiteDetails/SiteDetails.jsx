@@ -1,4 +1,4 @@
-import React, { Component } from "react";
+import React, { Component, Fragment } from "react";
 import PropTypes from "prop-types";
 import { CSSTransition } from "react-transition-group";
 import DetailCarousel from "../DetailCarousel/DetailCarousel";
@@ -17,8 +17,8 @@ class SiteDetails extends Component {
   constructor(props) {
     super(props);
     this.state = {
-      imageIndex: 0
-      // moreDetails: false
+      imageIndex: 0,
+      moreDetails: false
     };
   }
   onImageChanged = image => {
@@ -29,9 +29,9 @@ class SiteDetails extends Component {
 
   toggleMoreDetails = () => {
     console.log("toggle More Details");
-    this.setState({
-      moreDetails: false
-    });
+    this.setState(state => ({
+      moreDetails: !state.moreDetails
+    }));
   };
 
   render() {
@@ -49,16 +49,19 @@ class SiteDetails extends Component {
         <div className="siteDetails">
           <div className="siteDetailContent">
             <div className="siteDetailBackground" />
-            <DetailCarousel
-              detailImages={selectedSite.detailImages}
-              onImageChanged={this.onImageChanged}
-            />
-            {moreDetails ? (
-              <Details
-                {...selectedSite}
-                {...selectedSite.detailImages[imageIndex]}
-                onMoreDetails={this.toggleMoreDetails}
-              />
+            {!moreDetails ? (
+              <Fragment>
+                <DetailCarousel
+                  detailImages={selectedSite.detailImages}
+                  onImageChanged={this.onImageChanged}
+                />
+
+                <Details
+                  {...selectedSite}
+                  {...selectedSite.detailImages[imageIndex]}
+                  onMoreDetails={this.toggleMoreDetails}
+                />
+              </Fragment>
             ) : (
               <MoreInfo
                 {...selectedSite}
@@ -66,12 +69,21 @@ class SiteDetails extends Component {
               />
             )}
           </div>
-          <img
-            src="img/site-details/Button-Close-X.png"
-            alt="Close"
-            className="closeButton"
-            onClick={onCloseSite}
-          />
+          {!moreDetails ? (
+            <img
+              src="img/site-details/Button-Close-X.png"
+              alt="Close"
+              className="closeButton"
+              onClick={onCloseSite}
+            />
+          ) : (
+            <img
+              src="img/site-details/Button-BackArrow.png"
+              alt="Back"
+              className="backButton"
+              onClick={this.toggleMoreDetails}
+            />
+          )}
         </div>
       </CSSTransition>
     );

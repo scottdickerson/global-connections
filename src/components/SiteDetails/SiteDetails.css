@@ -61,6 +61,13 @@
   cursor: pointer;
   padding: 1rem;
 }
+.backButton {
+  position: absolute;
+  left: 5%;
+  top: 60px;
+  cursor: pointer;
+  padding: 1rem;
+}
 
 .imageDetails {
   height: 600px;
