@@ -3,6 +3,7 @@ import PropTypes from "prop-types";
 import { CSSTransition } from "react-transition-group";
 import DetailCarousel from "../DetailCarousel/DetailCarousel";
 import Details from "../Details/Details";
+import MoreInfo from "../MoreInfo/MoreInfo";
 import SiteSchema from "../../schemas/site";
 import "./SiteDetails.css";
 
@@ -26,17 +27,16 @@ class SiteDetails extends Component {
     });
   };
 
-  /*
   toggleMoreDetails = () => {
     console.log("toggle More Details");
     this.setState({
       moreDetails: false
     });
-  }; */
+  };
 
   render() {
     const { selectedSite, onCloseSite, isOpen } = this.props;
-    const { imageIndex } = this.state;
+    const { imageIndex, moreDetails } = this.state;
 
     return (
       <CSSTransition
@@ -53,11 +53,18 @@ class SiteDetails extends Component {
               detailImages={selectedSite.detailImages}
               onImageChanged={this.onImageChanged}
             />
-            <Details
-              {...selectedSite}
-              {...selectedSite.detailImages[imageIndex]}
-              onMoreDetails={this.toggleMoreDetails}
-            />
+            {moreDetails ? (
+              <Details
+                {...selectedSite}
+                {...selectedSite.detailImages[imageIndex]}
+                onMoreDetails={this.toggleMoreDetails}
+              />
+            ) : (
+              <MoreInfo
+                {...selectedSite}
+                onMoreDetails={this.toggleMoreDetails}
+              />
+            )}
           </div>
           <img
             src="img/site-details/Button-Close-X.png"

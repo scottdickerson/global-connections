@@ -3,6 +3,9 @@ body {
   padding: 0;
   font-family: sans-serif;
   box-sizing: border-box;
+  color: white;
+  font-family: LiberationSans;
+  line-height: 1.5rem;
 }
 
 #root {

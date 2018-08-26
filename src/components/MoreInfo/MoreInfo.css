@@ -1,0 +1,26 @@
+.moreInfo {
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: start;
+  align-items: center;
+  width: 100%;
+}
+
+.moreInfoContent {
+  width: 500px;
+  display: flex;
+  flex-flow: column nowrap;
+}
+
+.moreInfoImage {
+  text-align: center;
+}
+
+.moreInfoPerson {
+  font-family: GhostLight;
+  font-size: 1.25rem;
+  font-weight: 700;
+  letter-spacing: 2px;
+  text-shadow: black 0.1em 0.1em 0.4em;
+  text-align: center;
+}
