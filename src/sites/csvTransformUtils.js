@@ -31,7 +31,10 @@ export const loadGlobalConnections = () =>
           // top: translate location from the label
           // left: translate location from the label
           photoId: globalSite["Photo(s)"],
-          // thumbnail: findThumbnail(photoId),
+          thumbnail: findPhotoFile(
+            globalSite["Photo(s)"].split(" ").shift(),
+            "carousel-images"
+          ),
           detailImages: [
             {
               src: findPhotoFile(globalSite["Photo(s)"].split(" ").shift()), // replace with filename finder

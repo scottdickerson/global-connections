@@ -7,11 +7,24 @@ describe(`csvTransformUtils`, () => {
       expect(jsonObject).toBeDefined();
       const missingSites = jsonObject.map(site => ({
         person: `${site.photoId} ${site.person}`,
-        missingImageSrc: _.some(site.detailImages, { src: null })
+        missingThumbnail: !site.thumbnail,
+        missingImageSrc: _.some(site.detailImages, { src: null }),
+        detailImages: site.detailImages
       }));
       console.log(
         `missingSites: ${JSON.stringify(
           missingSites.filter(site => site.missingImageSrc),
+          null,
+          "\t"
+        )}`
+      );
+
+      console.log(
+        `missingThumbnails: ${JSON.stringify(
+          missingSites.filter(site => site.missingThumbnail).map(site => {
+            _.unset(site, "detailImages");
+            return site;
+          }),
           null,
           "\t"
         )}`
