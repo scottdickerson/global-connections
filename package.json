@@ -6,6 +6,7 @@
     "cross-env": "^5.2.0",
     "csvtojson": "^2.0.8",
     "find": "^0.2.9",
+    "fs": "^0.0.1-security",
     "jquery": "^3.3.1",
     "lodash": "^4.17.10",
     "lorem-ipsum": "^1.0.5",
@@ -19,10 +20,12 @@
     "slick-carousel": "^1.8.1"
   },
   "devDependencies": {
+    "babel-cli": "^6.26.0",
     "babel-core": "^6.26.3",
     "babel-eslint": "^8.2.6",
     "babel-loader": "^7.1.5",
     "babel-plugin-transform-class-properties": "^6.24.1",
+    "babel-preset-env": "^1.7.0",
     "babel-preset-stage-0": "^6.24.1",
     "eslint": "^5.4.0",
     "eslint-config-airbnb": "^17.1.0",
@@ -44,6 +47,7 @@
     "test": "cross-env CI=true react-scripts test --env=jsdom && yarn run lint",
     "eject": "react-scripts eject",
     "lint": "eslint src --ext .js,.jsx --fix",
+    "generateSites": "babel-node src/sites/generateSitesFile.js",
     "cosmos": "cosmos",
     "cosmos:export": "cosmos-export"
   }

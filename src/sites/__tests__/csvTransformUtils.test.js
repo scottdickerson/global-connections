@@ -1,5 +1,5 @@
 import _ from "lodash";
-import { loadGlobalConnections, findPhotoFile } from "./csvTransformUtils";
+import { loadGlobalConnections, findPhotoFile } from "../csvTransformUtils";
 
 describe(`csvTransformUtils`, () => {
   test("loadGlobalConnections", done =>

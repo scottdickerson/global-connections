@@ -16,7 +16,15 @@ export const findPhotoFile = (photoId, photoDir = "details-images") => {
     path.join(__dirname, "..", "..", "public", "img", photoDir)
   );
   // return just the short name of the file
-  return fileArray.length > 0 ? path.basename(fileArray.pop()) : null;
+  return path.join(
+    "img",
+    photoDir,
+    path.basename(
+      fileArray.length > 0
+        ? fileArray.pop()
+        : "26.5 P17 Parkison, Rex out on patrol, Parkison photo.png"
+    )
+  );
 };
 
 export const loadGlobalConnections = () =>
