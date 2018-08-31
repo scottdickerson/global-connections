@@ -30,7 +30,7 @@ class SiteCarousel extends React.Component {
       dots: false,
       infinite: true,
       arrows: false,
-      slidesToShow: 3,
+      slidesToShow: 5,
       speed: 200,
       slidesToScroll: 1,
       centerMode: true,
