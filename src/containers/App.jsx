@@ -37,12 +37,14 @@ class App extends Component {
     this.setState({ isSiteOpen: false });
   };
 
-  handleSiteToggle = () => {
-    const { isSiteOpen } = this.state;
-    setTimeout(
-      () => this.setState(state => ({ isSiteOpen: !state.isSiteOpen })),
-      !isSiteOpen ? 1000 : 0 // trigger with slight delay when opening
-    );
+  handleSiteToggle = siteId => {
+    const { isSiteOpen, selectedSite } = this.state;
+    if (isSiteOpen || selectedSite.id === siteId) {
+      setTimeout(
+        () => this.setState(state => ({ isSiteOpen: !state.isSiteOpen })),
+        !isSiteOpen ? 1000 : 0 // trigger with slight delay when opening
+      );
+    }
   };
 
   handleSiteChanged = (oldSite, site) => {

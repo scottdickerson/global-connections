@@ -38,6 +38,7 @@ class SiteCarousel extends React.Component {
       autoplay: true,
       autoplaySpeed: 5000,
       focusOnSelect: true,
+      draggable: true,
       initialSlide: _.findIndex(props.sites, props.selectedSite)
     };
   }

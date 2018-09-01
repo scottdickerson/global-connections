@@ -33,9 +33,10 @@ export const loadGlobalConnections = () =>
     .then(jsonObj => {
       const mappedObject = jsonObj
         .filter(globalSite => !globalSite.Continent) // exclude any row that's just a continent
-        .map(globalSite => ({
+        .map((globalSite, index) => ({
           person: globalSite["Person/ Group/ Event Name"],
           label: globalSite["Star Point"],
+          id: index,
           // top: translate location from the label
           // left: translate location from the label
           photoId: globalSite["Photo(s)"],
