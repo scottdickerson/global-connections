@@ -15,15 +15,12 @@ export const findPhotoFile = (photoId, photoDir = "details-images") => {
     fileRegExp,
     path.join(__dirname, "..", "..", "public", "img", photoDir)
   );
+
   // return just the short name of the file
   return path.join(
     "img",
     photoDir,
-    path.basename(
-      fileArray.length > 0
-        ? fileArray.pop()
-        : "26.5 P17 Parkison, Rex out on patrol, Parkison photo.png"
-    )
+    path.basename(fileArray.length > 0 ? fileArray.pop() : "")
   );
 };
 
@@ -58,7 +55,6 @@ export const loadGlobalConnections = () =>
         globalSite => globalSite.photoId
       );
       const nestedSite = filteredSites.reduce((result, globalSite) => {
-        // console.log(`nestedSite: ${JSON.stringify(globalSite)}`);
         if (!globalSite.person) {
           result[result.length - 1].detailImages.push(
             ...globalSite.detailImages
@@ -68,6 +64,5 @@ export const loadGlobalConnections = () =>
         }
         return result;
       }, []);
-      // console.log(JSON.stringify(nestedSite, null, "\t"));
       return nestedSite;
     });
