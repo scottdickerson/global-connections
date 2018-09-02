@@ -44,14 +44,23 @@ class SiteCarousel extends React.Component {
     };
   }
 
+  swiped = () => {
+    this.recentlySwiped = true;
+    clearTimeout(this.swipeTimeout);
+    this.swipeTimeout = setTimeout(() => {
+      this.recentlySwiped = false;
+    }, 300);
+  };
+
+  siteTapped = id => {
+    const { siteTapped } = this.props;
+    if (!this.recentlySwiped) {
+      siteTapped(id);
+    }
+  };
+
   render() {
-    const {
-      visible,
-      siteChanged,
-      selectedSite,
-      siteTapped,
-      sites
-    } = this.props;
+    const { visible, siteChanged, selectedSite, sites } = this.props;
 
     const style = { visibility: visible ? "visible" : "hidden" };
     return (
@@ -72,12 +81,16 @@ class SiteCarousel extends React.Component {
             left: `${this.settings.slidesToShow === 3 ? 3.5 : 3}%`
           }}
         >
-          <Slider {...this.settings} beforeChange={siteChanged}>
+          <Slider
+            {...this.settings}
+            beforeChange={siteChanged}
+            onSwipe={this.swiped}
+          >
             {sites.map((site, key) => (
               <div
                 className="slide"
                 key={`div-${site.id}`}
-                onClick={() => siteTapped(site.id)}
+                onClick={() => this.siteTapped(site.id)}
               >
                 <img
                   draggable="false"

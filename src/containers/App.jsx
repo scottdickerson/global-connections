@@ -40,10 +40,7 @@ class App extends Component {
   handleSiteToggle = siteId => {
     const { isSiteOpen, selectedSite } = this.state;
     if (isSiteOpen || selectedSite.id === siteId) {
-      setTimeout(
-        () => this.setState(state => ({ isSiteOpen: !state.isSiteOpen })),
-        !isSiteOpen ? 1000 : 0 // trigger with slight delay when opening
-      );
+      this.setState(state => ({ isSiteOpen: !state.isSiteOpen }));
     }
   };
 
