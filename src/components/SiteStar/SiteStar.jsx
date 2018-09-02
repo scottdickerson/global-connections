@@ -8,8 +8,9 @@ const SiteStar = props => {
   const imgSrc = active ? "Star-LIT.png" : "Star-50percentLIT.png";
   const style = {
     position: "absolute",
-    top,
-    left
+    opacity: 1,
+    top: top - 32, // adjust for star height
+    left: left - 32 // adjust for star width
   };
   return (
     <img

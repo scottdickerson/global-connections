@@ -3,6 +3,8 @@
     "person": "Elkanah Bracken Greer",
     "label": "Monterrey, Mexico",
     "id": 0,
+    "top": 360,
+    "left": 335,
     "photoId": "1.0 Greer, Brig Gen…jpg",
     "thumbnail": "img\\carousel-images\\1.0 greer, brig gen elkanah brackin, mexican war & civil war, cabinet card, front copy.png",
     "detailImages": [
@@ -19,6 +21,8 @@
     "person": "Edward Clark",
     "label": "Monterrey, Mexico",
     "id": 1,
+    "top": 350,
+    "left": 350,
     "photoId": "2.0 Edward Clark.jpg",
     "thumbnail": "img\\carousel-images\\2.0 edwardclark copy.png",
     "detailImages": [
@@ -35,6 +39,8 @@
     "person": "John Thompson Phillips",
     "label": "Mexico City, Mexico",
     "id": 2,
+    "top": 385,
+    "left": 340,
     "photoId": "3.0 Mexican American War",
     "thumbnail": "img\\carousel-images\\3.0 John Thompson Phillips copy.png",
     "detailImages": [
@@ -51,6 +57,8 @@
     "person": "John B. Hall",
     "label": "Mexico City, Mexico",
     "id": 3,
+    "top": 375,
+    "left": 350,
     "photoId": "4.0",
     "thumbnail": "img\\carousel-images\\4.0 John B. Hall Jefferson_Davis_1853_daguerreotype-restored.png",
     "detailImages": [
@@ -73,6 +81,8 @@
     "person": "William Miles",
     "label": "Richmond, Virginia",
     "id": 6,
+    "top": 300,
+    "left": 455,
     "photoId": "5.0 civil war Richmond fires.jpg",
     "thumbnail": "img\\carousel-images\\5.0 William Miles copy.png",
     "detailImages": [
@@ -89,6 +99,8 @@
     "person": "Joseph H. Norris",
     "label": "Fort Lancaster, Texas",
     "id": 7,
+    "top": 340,
+    "left": 340,
     "photoId": "6.0 JH Norris Postcard",
     "thumbnail": "img\\carousel-images\\6.0 Joseph HNorris-Postcard copy.png",
     "detailImages": [
@@ -105,6 +117,8 @@
     "person": "F. J. Willey",
     "label": "Springfield, Missouri",
     "id": 8,
+    "top": 300,
+    "left": 410,
     "photoId": "7.0 Texas Hunters Flag",
     "thumbnail": "img\\carousel-images\\7.0 FJ Wiley Texas Hunters Flag Image.png",
     "detailImages": [
@@ -121,6 +135,8 @@
     "person": "Frederick S. Bass",
     "label": "Appomattox, Virginia",
     "id": 9,
+    "top": 300,
+    "left": 445,
     "photoId": "8.0 Appomattox Court House",
     "thumbnail": "img\\carousel-images\\8.0 Frederick Bass Appomattox Court House copy.png",
     "detailImages": [
@@ -137,6 +153,8 @@
     "person": "W. M. Scroggins",
     "label": "Santiago, Cuba",
     "id": 10,
+    "top": 390,
+    "left": 450,
     "photoId": "10.0 Painting of the Battle",
     "thumbnail": "img\\carousel-images\\10.0 WM Scroggins 2880px-Painting_of_the_Battle_of_Las_Guasimas copy.png",
     "detailImages": [
@@ -151,8 +169,10 @@
   },
   {
     "person": "George Perry Rains",
-    "label": "Harlingen, Texas/ Carrizal, Mexico or Guerrero, Mexico (whatever works best with Stars)",
+    "label": "Guerrero, Mexico",
     "id": 11,
+    "top": 395,
+    "left": 330,
     "photoId": "11.0",
     "thumbnail": "img\\carousel-images\\11.0 RAINS, GEORGE PERRY, c19__, FF 1094 copy.png",
     "detailImages": [
@@ -205,6 +225,8 @@
     "person": "Chesley Adams",
     "label": "Ceiba, Puerto Rico",
     "id": 19,
+    "top": 395,
+    "left": 495,
     "photoId": "12.1",
     "thumbnail": "img\\carousel-images\\12.1 WWI-WWII, ADAMS, LTC CHESLEY, 600dpi, PD6-1256 copy.png",
     "detailImages": [
@@ -239,6 +261,8 @@
     "person": "Donald Norman Cameron",
     "label": "Luzon, Philippines",
     "id": 27,
+    "top": 400,
+    "left": 1370,
     "photoId": "13.0 Crossing River on Luzon",
     "thumbnail": "img\\carousel-images\\13.0 Donald Norman Cameron, Luzon, Philippines, 1902-1903, .png",
     "detailImages": [
@@ -255,6 +279,8 @@
     "person": "Prisoners of War",
     "label": "Balanga, Phillippines",
     "id": 29,
+    "top": 410,
+    "left": 1370,
     "photoId": "14.0",
     "thumbnail": "img\\carousel-images\\14.0 wwii-asia-philippine-islands-luzon-us-prisoners-bataan-13ef47f4a77e8c16.png",
     "detailImages": [
@@ -319,6 +345,8 @@
     "person": "Forrest Murphey",
     "label": "Santa Rita, Guam",
     "id": 39,
+    "top": 420,
+    "left": 1475,
     "photoId": "15.1",
     "thumbnail": "img\\carousel-images\\15.1 Forrest Murphey WWII Photo Album0009.png",
     "detailImages": [
@@ -395,6 +423,8 @@
     "person": "Euriah Bennett",
     "label": "Pearl Harbor, Hawaii",
     "id": 51,
+    "top": 375,
+    "left": 80,
     "photoId": "16A.1",
     "thumbnail": "img\\carousel-images\\16A.1 17-A Bennett, Euriah, US Navy, WWII, Pearl Harbor copy.png",
     "detailImages": [
@@ -429,6 +459,8 @@
     "person": "Cecil Hollingshead",
     "label": "Pearl Harbor, Hawaii",
     "id": 56,
+    "top": 800,
+    "left": 800,
     "photoId": "16.1B",
     "thumbnail": "img\\carousel-images\\16.1B Cecil Hollingshead pearl harbor attack mgn-navy.png",
     "detailImages": [
@@ -445,6 +477,8 @@
     "person": "Myrtle Dinkle McLeroy",
     "label": "Papua New Guinea",
     "id": 58,
+    "top": 520,
+    "left": 1475,
     "photoId": "17.1",
     "thumbnail": "img\\carousel-images\\17.1 medical tech hospital new guinea copy.png",
     "detailImages": [
@@ -473,6 +507,8 @@
     "person": "Emory Dale Slone",
     "label": "Java Sea",
     "id": 63,
+    "top": 520,
+    "left": 1340,
     "photoId": "18.1",
     "thumbnail": "img\\carousel-images\\18.1 USS Pope.png",
     "detailImages": [
@@ -495,6 +531,8 @@
     "person": "Lost Battalion",
     "label": "Ban Pong, Thailand",
     "id": 65,
+    "top": 800,
+    "left": 800,
     "photoId": "19.1",
     "thumbnail": "img\\carousel-images\\19.1 Kanchanaburi-Thailand-1944.png",
     "detailImages": [
@@ -523,6 +561,8 @@
     "person": "Albert Abraham",
     "label": "Dinjan, India",
     "id": 69,
+    "top": 800,
+    "left": 800,
     "photoId": "20.1",
     "thumbnail": "img\\carousel-images\\20.1 Albert Abraham copy.png",
     "detailImages": [
@@ -551,6 +591,8 @@
     "person": "Roderick Allen",
     "label": "Tokyo, Japan",
     "id": 74,
+    "top": 800,
+    "left": 800,
     "photoId": "21.1",
     "thumbnail": "img\\carousel-images\\21.1 RodericRAllen.png",
     "detailImages": [
@@ -567,6 +609,8 @@
     "person": "Stephen Warren",
     "label": "Kowan, Korea",
     "id": 76,
+    "top": 800,
+    "left": 800,
     "photoId": "22.1",
     "thumbnail": "img\\carousel-images\\22.1   2008-500-63 WARREN, STANDING BESIDE AIRPLANE, WITH FLIGHT SUIT HOLDING HELMET, UNDATED.png",
     "detailImages": [
@@ -595,6 +639,8 @@
     "person": "Vernon B. Lewis Jr.",
     "label": "Dau Tieng, Vietnam",
     "id": 80,
+    "top": 800,
+    "left": 800,
     "photoId": "23.1",
     "thumbnail": "img\\carousel-images\\23.1 Vernon L.png",
     "detailImages": [
@@ -629,6 +675,8 @@
     "person": "Johnny Nickerson",
     "label": "An Khe, Vietnam",
     "id": 85,
+    "top": 800,
+    "left": 800,
     "photoId": "24.1",
     "thumbnail": "img\\carousel-images\\24.1 NICKERSON004, Johnny F, Sp 4 (E-4).  Vietnam, Family Photo.png",
     "detailImages": [
@@ -669,6 +717,8 @@
     "person": "James Wimberley Lewis",
     "label": "Ban Niang, Laos",
     "id": 91,
+    "top": 800,
+    "left": 800,
     "photoId": "25.1",
     "thumbnail": "img\\carousel-images\\25.1-4_5x6_5-JamesWimberlyLewis.png",
     "detailImages": [
@@ -691,6 +741,8 @@
     "person": "Rex Parkison",
     "label": "Cu Chi, Vietnam",
     "id": 94,
+    "top": 800,
+    "left": 800,
     "photoId": "26.1",
     "thumbnail": "img\\carousel-images\\26.1 Parkison, Rex, Vietnam, platoon with flag, outside barracks, kneeling on right is Parkison friend kia rescuing wounded soldier & awarded 2 silver stars, Parkison photo.png",
     "detailImages": [
@@ -737,6 +789,8 @@
     "person": "Clarence McClaran",
     "label": "Ipswich, Australia",
     "id": 101,
+    "top": 800,
+    "left": 800,
     "photoId": "27.1",
     "thumbnail": "img\\carousel-images\\27.1 McClaran, Clarence Edward via Ancestry.png",
     "detailImages": [
@@ -771,6 +825,8 @@
     "person": "Harold Raines",
     "label": "Inchon, Korea",
     "id": 106,
+    "top": 800,
+    "left": 800,
     "photoId": "28.1",
     "thumbnail": "img\\carousel-images\\28.1 Raines, Harold001 copy.png",
     "detailImages": [
@@ -805,6 +861,8 @@
     "person": "Curtis Fields",
     "label": "Haman, Korea",
     "id": 112,
+    "top": 800,
+    "left": 800,
     "photoId": "29.1",
     "thumbnail": "img\\carousel-images\\29.1 Fields, Curtis Korea Men of the 24th Inf. Regt. move up to the firing line in Korea-July 18, 1950-NARA Public Domain.png",
     "detailImages": [
@@ -821,6 +879,8 @@
     "person": "Rufus LaDell James",
     "label": "Dong Ha, Vietnam",
     "id": 114,
+    "top": 800,
+    "left": 800,
     "photoId": "30.1",
     "thumbnail": "img\\carousel-images\\30.1 Rufus, James La Dell, Misc. Military Photos, No. 25.png",
     "detailImages": [
@@ -837,6 +897,8 @@
     "person": "Sonnie B. McCarley",
     "label": "Chateau-Thierry, France",
     "id": 118,
+    "top": 800,
+    "left": 800,
     "photoId": "31.1",
     "thumbnail": "img\\carousel-images\\31.1 McCarley, Sonnie B 3, 369th Infantry, Croix de Guerre, National Archives.png",
     "detailImages": [
@@ -865,6 +927,8 @@
     "person": "George A. Thompson",
     "label": "Naples, Italy",
     "id": 122,
+    "top": 800,
+    "left": 800,
     "photoId": "32.1",
     "thumbnail": "img\\carousel-images\\32.1 370th in Italy.png",
     "detailImages": [
@@ -887,6 +951,8 @@
     "person": "William C. Allen",
     "label": "Saint-Mihiel, France",
     "id": 127,
+    "top": 800,
+    "left": 800,
     "photoId": "34.1",
     "thumbnail": "img\\carousel-images\\34.1 Allen, 2nd Lt. Will C. Source-  Ancestry copy.png",
     "detailImages": [
@@ -915,6 +981,8 @@
     "person": "Donnell A. Brown",
     "label": "Angouleme, France",
     "id": 131,
+    "top": 800,
+    "left": 800,
     "photoId": "35.1",
     "thumbnail": "img\\carousel-images\\35.1 WWI-Brown, Don (left, 19 yrs), & best friend Bill Robertson (20 yrs) enlisted April 4, 1918, left Marshall April 8, 1918 copy.png",
     "detailImages": [
@@ -943,6 +1011,8 @@
     "person": "Henry Hockwald",
     "label": "Saint-Etienne, France",
     "id": 135,
+    "top": 800,
+    "left": 800,
     "photoId": "36.1",
     "thumbnail": "img\\carousel-images\\36.1 Hockwalk, Henry Scrapbook Page 21  Henry in uniform dress hat HCHM Collection.png",
     "detailImages": [
@@ -977,6 +1047,8 @@
     "person": "William H. Wood",
     "label": "Sagan, Germany",
     "id": 140,
+    "top": 800,
+    "left": 800,
     "photoId": "37.1",
     "thumbnail": "img\\carousel-images\\37.1 Wood, William H, Wood Family Photo.jpg",
     "detailImages": [
@@ -1017,6 +1089,8 @@
     "person": "Arthur Lee Wesley",
     "label": "Maastricht, Netherlands",
     "id": 146,
+    "top": 800,
+    "left": 800,
     "photoId": "38.1",
     "thumbnail": "img\\carousel-images\\38.1 Wesley, Arthur Lee,  Principal,  Courtesy Dora Wesley Morris.png",
     "detailImages": [
@@ -1045,6 +1119,8 @@
     "person": "Perry Bonner",
     "label": "Oran, Africa",
     "id": 150,
+    "top": 800,
+    "left": 800,
     "photoId": "39.1",
     "thumbnail": "img\\carousel-images\\39.1 PerryBonner.png",
     "detailImages": [
@@ -1061,6 +1137,8 @@
     "person": "Lloyd Donald Minter",
     "label": "Vitttel, France",
     "id": 152,
+    "top": 800,
+    "left": 800,
     "photoId": "40.1",
     "thumbnail": "img\\carousel-images\\40.1 Minter, Lloyd Donald in uniform Courtesy Donna Minter Sedota.png",
     "detailImages": [
@@ -1089,6 +1167,8 @@
     "person": "Jack McGough",
     "label": "Bordeaux, France",
     "id": 156,
+    "top": 800,
+    "left": 800,
     "photoId": "41.1",
     "thumbnail": "img\\carousel-images\\41.1 McGough, Jack portrait, Courtesy Cathy McGough copy.png",
     "detailImages": [
@@ -1123,6 +1203,8 @@
     "person": "Edwin R. Bledsoe",
     "label": "Aachen, Germany",
     "id": 161,
+    "top": 800,
+    "left": 800,
     "photoId": "42.1",
     "thumbnail": "img\\carousel-images\\42.1 Bledsoe, Edwin R, PFC Portrait, HCHM Collection.png",
     "detailImages": [
@@ -1151,6 +1233,8 @@
     "person": "Albert Binotti",
     "label": "Belvedere, Italy\nBruyeres, France\nWaakirchen, Germany",
     "id": 165,
+    "top": 800,
+    "left": 800,
     "photoId": "43.1",
     "thumbnail": "img\\carousel-images\\43.1 Binotti, Albert copy.png",
     "detailImages": [
@@ -1191,6 +1275,8 @@
     "person": "John W. Wainwright",
     "label": "Juvencourt, France",
     "id": 171,
+    "top": 800,
+    "left": 800,
     "photoId": "44.1",
     "thumbnail": "img\\carousel-images\\44.1 Wainwright, John W.png",
     "detailImages": [
@@ -1225,6 +1311,8 @@
     "person": "Roy H. Downer",
     "label": "Norwich, England",
     "id": 177,
+    "top": 800,
+    "left": 800,
     "photoId": "45.1",
     "thumbnail": "img\\carousel-images\\45.1 Downer, Roy H, Kneeling 3rd from left American Air Museum of Great Britain.png",
     "detailImages": [
@@ -1247,6 +1335,8 @@
     "person": "Chris Glanton",
     "label": "Balad Air Base, Iraq",
     "id": 180,
+    "top": 800,
+    "left": 800,
     "photoId": "46.1",
     "thumbnail": "img\\carousel-images\\46.1 Glanton, Chris Global War on Terrorism Courtesy Tony Glanton.png",
     "detailImages": [
@@ -1269,6 +1359,8 @@
     "person": "Billy Wilson",
     "label": "Umm Qasr, Iraq",
     "id": 183,
+    "top": 800,
+    "left": 800,
     "photoId": "47.1",
     "thumbnail": "img\\carousel-images\\47.1 Wilson, Billy USS Ranger returns from Desert Storm, 1991, Pulbic Domain.png",
     "detailImages": [
@@ -1285,6 +1377,8 @@
     "person": "Tony Glanton",
     "label": "Helmand Province, Afghanistan",
     "id": 187,
+    "top": 800,
+    "left": 800,
     "photoId": "48.1",
     "thumbnail": "img\\carousel-images\\48.1 Glanton, Tony Global War on Terrorism Courtesy Tony Glanton copy.png",
     "detailImages": [
@@ -1325,6 +1419,8 @@
     "person": "McKinley Bradix",
     "label": "Abadan, Iran",
     "id": 193,
+    "top": 800,
+    "left": 800,
     "photoId": "49.1",
     "thumbnail": "img\\carousel-images\\49.1 Bradix, McKinley3.png",
     "detailImages": [
@@ -1353,6 +1449,8 @@
     "person": "Matthew Alvis",
     "label": "Marjah, Afghanistan",
     "id": 197,
+    "top": 800,
+    "left": 800,
     "photoId": "50.1",
     "thumbnail": "img\\carousel-images\\50.1 Alvis, Matthew in Iraq, 2000s, Alvis Family Photojpg.png",
     "detailImages": [
@@ -1369,6 +1467,8 @@
     "person": "Zachary Petties",
     "label": "Baghdad, Iraq",
     "id": 200,
+    "top": 800,
+    "left": 800,
     "photoId": "51.1",
     "thumbnail": "img\\carousel-images\\51.1 Petties, Zachary portrait copy.png",
     "detailImages": [
@@ -1397,6 +1497,8 @@
     "person": "Angela Guigni",
     "label": "An Nasiriyah, Iraq",
     "id": 204,
+    "top": 800,
+    "left": 800,
     "photoId": "52",
     "thumbnail": "img\\carousel-images\\52.1 guigni, ANGELA, 2000s, Courtesy Elysian Field ISD.png",
     "detailImages": [
@@ -1413,6 +1515,8 @@
     "person": "Kendall Potter",
     "label": "Baghdad, Iraq",
     "id": 207,
+    "top": 800,
+    "left": 800,
     "photoId": "53.1",
     "thumbnail": "img\\carousel-images\\53.1 Potter, Kendall, with airplane.png",
     "detailImages": [
@@ -1441,6 +1545,8 @@
     "person": "Jeffrey R. Marshall",
     "label": "Doha, Qatar",
     "id": 211,
+    "top": 800,
+    "left": 800,
     "photoId": "54.1",
     "thumbnail": "img\\carousel-images\\54.1 Marshall, Jeffrey 2000s, Courtesy Jeffrey Marshall 5x7.png",
     "detailImages": [

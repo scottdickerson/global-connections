@@ -35,7 +35,7 @@ class SiteCarousel extends React.Component {
       slidesToScroll: 1,
       centerMode: true,
       centerPadding: "0px",
-      autoplay: true,
+      // autoplay: true,
       autoplaySpeed: 5000,
       focusOnSelect: true,
       draggable: true,
