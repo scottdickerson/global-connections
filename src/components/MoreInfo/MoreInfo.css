@@ -7,9 +7,12 @@
 }
 
 .moreInfoContent {
-  width: 500px;
+  width: 600px;
+  padding: 0 2rem;
   display: flex;
   flex-flow: column nowrap;
+  overflow-y: auto;
+  overflow-x: hidden;
 }
 
 .moreInfoImage {
@@ -24,4 +27,5 @@
   letter-spacing: 1px;
   text-shadow: black 0.1em 0.1em 0.4em;
   text-align: center;
+  padding-bottom: 1rem;
 }

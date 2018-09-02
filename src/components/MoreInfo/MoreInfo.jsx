@@ -11,16 +11,18 @@ const MoreInfo = props => {
   const { learnMore, person } = props;
   return (
     <div className="moreInfo">
+      <div className="moreInfoImage">
+        <img
+          draggable="false"
+          src="img/Header-ReadMore.png"
+          alt="More Details"
+        />
+      </div>
+      <span className="moreInfoPerson">{person}</span>
       <div className="moreInfoContent">
-        <div className="moreInfoImage">
-          <img
-            draggable="false"
-            src="img/Header-ReadMore.png"
-            alt="More Details"
-          />
-        </div>
-        <span className="moreInfoPerson">{person}</span>
-        <p className="moreInfoLearnMore">{learnMore}</p>
+        {learnMore.split("\n\n").map(paragraph => (
+          <p>{paragraph}</p>
+        ))}
       </div>
     </div>
   );
