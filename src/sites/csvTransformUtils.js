@@ -94,7 +94,7 @@ const starMap = [
     left: 1420
   },
   {
-    name: "Kowan, Korea",
+    name: "Suwon, Korea",
     top: 305,
     left: 1370
   },
@@ -152,6 +152,106 @@ const starMap = [
     name: "Saint-Mihiel, France",
     top: 240,
     left: 830
+  },
+  {
+    name: "Sagan, Germany",
+    top: 225,
+    left: 860
+  },
+  {
+    name: "Angouleme, France",
+    top: 260,
+    left: 810
+  },
+  {
+    name: "Saint-Etienne, France",
+    top: 260,
+    left: 825
+  },
+  {
+    name: "Sagan, Germany",
+    top: 225,
+    left: 860
+  },
+  {
+    name: "Maastricht, Netherlands",
+    top: 230,
+    left: 830
+  },
+  {
+    name: "Oran, Algeria",
+    top: 310,
+    left: 800
+  },
+  {
+    name: "Vittel, France",
+    top: 260,
+    left: 830
+  },
+  {
+    name: "Bordeaux, France",
+    top: 260,
+    left: 800
+  },
+  {
+    name: "Aachen, Germany",
+    top: 230,
+    left: 840
+  },
+  {
+    name: "Belvedere, Italy",
+    top: 260,
+    left: 850
+  },
+  {
+    name: "Juvancourt, France",
+    top: 250,
+    left: 825
+  },
+  {
+    name: "Norwich, England",
+    top: 225,
+    left: 810
+  },
+  {
+    name: "Balad Air Base, Iraq",
+    top: 320,
+    left: 1000
+  },
+  {
+    name: "Umm Qasr, Iraq",
+    top: 340,
+    left: 1020
+  },
+  {
+    name: "Helmand Province, Afghanistan",
+    top: 340,
+    left: 1095
+  },
+  {
+    name: "Abadan, Iran",
+    top: 330,
+    left: 1025
+  },
+  {
+    name: "Marjah, Afghanistan",
+    top: 340,
+    left: 1095
+  },
+  {
+    name: "Baghdad, Iraq",
+    top: 330,
+    left: 1005
+  },
+  {
+    name: "An Nasiriyah, Iraq",
+    top: 330,
+    left: 1020
+  },
+  {
+    name: "Doha, Qatar",
+    top: 360,
+    left: 1040
   }
 ];
 
