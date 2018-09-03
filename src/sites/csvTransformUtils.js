@@ -77,6 +77,81 @@ const starMap = [
     name: "Java Sea",
     top: 520,
     left: 1340
+  },
+  {
+    name: "Ban Pong, Thailand",
+    top: 425,
+    left: 1280
+  },
+  {
+    name: "Dinjan, India",
+    top: 360,
+    left: 1230
+  },
+  {
+    name: "Tokyo, Japan",
+    top: 310,
+    left: 1420
+  },
+  {
+    name: "Kowan, Korea",
+    top: 305,
+    left: 1370
+  },
+  {
+    name: "Dau Tieng, Vietnam",
+    top: 425,
+    left: 1305
+  },
+  {
+    name: "An Khe, Vietnam",
+    top: 415,
+    left: 1305
+  },
+  {
+    name: "Ban Niang, Laos",
+    top: 385,
+    left: 1285
+  },
+  {
+    name: "Cu Chi, Vietnam",
+    top: 435,
+    left: 1305
+  },
+  {
+    name: "Ipswich, Australia",
+    top: 600,
+    left: 1500
+  },
+  {
+    name: "Incheon, Korea",
+    top: 305,
+    left: 1370
+  },
+  {
+    name: "Haman, Korea",
+    top: 310,
+    left: 1370
+  },
+  {
+    name: "Dong Ha, Vietnam",
+    top: 405,
+    left: 1300
+  },
+  {
+    name: "Chateau-Thierry, France",
+    top: 240,
+    left: 820
+  },
+  {
+    name: "Naples, Italy",
+    top: 280,
+    left: 860
+  },
+  {
+    name: "Saint-Mihiel, France",
+    top: 240,
+    left: 830
   }
 ];
 

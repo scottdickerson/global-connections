@@ -531,8 +531,8 @@
     "person": "Lost Battalion",
     "label": "Ban Pong, Thailand",
     "id": 65,
-    "top": 800,
-    "left": 800,
+    "top": 425,
+    "left": 1280,
     "photoId": "19.1",
     "thumbnail": "img\\carousel-images\\19.1 Kanchanaburi-Thailand-1944.png",
     "detailImages": [
@@ -561,8 +561,8 @@
     "person": "Albert Abraham",
     "label": "Dinjan, India",
     "id": 69,
-    "top": 800,
-    "left": 800,
+    "top": 360,
+    "left": 1230,
     "photoId": "20.1",
     "thumbnail": "img\\carousel-images\\20.1 Albert Abraham copy.png",
     "detailImages": [
@@ -591,8 +591,8 @@
     "person": "Roderick Allen",
     "label": "Tokyo, Japan",
     "id": 74,
-    "top": 800,
-    "left": 800,
+    "top": 310,
+    "left": 1420,
     "photoId": "21.1",
     "thumbnail": "img\\carousel-images\\21.1 RodericRAllen.png",
     "detailImages": [
@@ -609,8 +609,8 @@
     "person": "Stephen Warren",
     "label": "Kowan, Korea",
     "id": 76,
-    "top": 800,
-    "left": 800,
+    "top": 305,
+    "left": 1370,
     "photoId": "22.1",
     "thumbnail": "img\\carousel-images\\22.1   2008-500-63 WARREN, STANDING BESIDE AIRPLANE, WITH FLIGHT SUIT HOLDING HELMET, UNDATED.png",
     "detailImages": [
@@ -639,8 +639,8 @@
     "person": "Vernon B. Lewis Jr.",
     "label": "Dau Tieng, Vietnam",
     "id": 80,
-    "top": 800,
-    "left": 800,
+    "top": 425,
+    "left": 1305,
     "photoId": "23.1",
     "thumbnail": "img\\carousel-images\\23.1 Vernon L.png",
     "detailImages": [
@@ -675,8 +675,8 @@
     "person": "Johnny Nickerson",
     "label": "An Khe, Vietnam",
     "id": 85,
-    "top": 800,
-    "left": 800,
+    "top": 415,
+    "left": 1305,
     "photoId": "24.1",
     "thumbnail": "img\\carousel-images\\24.1 NICKERSON004, Johnny F, Sp 4 (E-4).  Vietnam, Family Photo.png",
     "detailImages": [
@@ -717,8 +717,8 @@
     "person": "James Wimberley Lewis",
     "label": "Ban Niang, Laos",
     "id": 91,
-    "top": 800,
-    "left": 800,
+    "top": 385,
+    "left": 1285,
     "photoId": "25.1",
     "thumbnail": "img\\carousel-images\\25.1-4_5x6_5-JamesWimberlyLewis.png",
     "detailImages": [
@@ -741,8 +741,8 @@
     "person": "Rex Parkison",
     "label": "Cu Chi, Vietnam",
     "id": 94,
-    "top": 800,
-    "left": 800,
+    "top": 435,
+    "left": 1305,
     "photoId": "26.1",
     "thumbnail": "img\\carousel-images\\26.1 Parkison, Rex, Vietnam, platoon with flag, outside barracks, kneeling on right is Parkison friend kia rescuing wounded soldier & awarded 2 silver stars, Parkison photo.png",
     "detailImages": [
@@ -789,8 +789,8 @@
     "person": "Clarence McClaran",
     "label": "Ipswich, Australia",
     "id": 101,
-    "top": 800,
-    "left": 800,
+    "top": 600,
+    "left": 1500,
     "photoId": "27.1",
     "thumbnail": "img\\carousel-images\\27.1 McClaran, Clarence Edward via Ancestry.png",
     "detailImages": [
@@ -823,10 +823,10 @@
   },
   {
     "person": "Harold Raines",
-    "label": "Inchon, Korea",
+    "label": "Incheon, Korea",
     "id": 106,
-    "top": 800,
-    "left": 800,
+    "top": 305,
+    "left": 1370,
     "photoId": "28.1",
     "thumbnail": "img\\carousel-images\\28.1 Raines, Harold001 copy.png",
     "detailImages": [
@@ -840,7 +840,7 @@
         "src": "img\\details-images\\28.2 Raines, Harold Inchon Harbor.png",
         "title": "Korean War",
         "caption": "Raines was activated in 1950 for the Korean War and assigned to the USS Estes.",
-        "credit": "Inchon Harbor, 1950s | Public Domain"
+        "credit": "Incheon Harbor, 1950s | Public Domain"
       },
       {
         "src": "img\\details-images\\28.3 Raines, Harold Battle_of_Inchon Public Domain.png",
@@ -861,8 +861,8 @@
     "person": "Curtis Fields",
     "label": "Haman, Korea",
     "id": 112,
-    "top": 800,
-    "left": 800,
+    "top": 310,
+    "left": 1370,
     "photoId": "29.1",
     "thumbnail": "img\\carousel-images\\29.1 Fields, Curtis Korea Men of the 24th Inf. Regt. move up to the firing line in Korea-July 18, 1950-NARA Public Domain.png",
     "detailImages": [
@@ -879,8 +879,8 @@
     "person": "Rufus LaDell James",
     "label": "Dong Ha, Vietnam",
     "id": 114,
-    "top": 800,
-    "left": 800,
+    "top": 405,
+    "left": 1300,
     "photoId": "30.1",
     "thumbnail": "img\\carousel-images\\30.1 Rufus, James La Dell, Misc. Military Photos, No. 25.png",
     "detailImages": [
@@ -897,8 +897,8 @@
     "person": "Sonnie B. McCarley",
     "label": "Chateau-Thierry, France",
     "id": 118,
-    "top": 800,
-    "left": 800,
+    "top": 240,
+    "left": 820,
     "photoId": "31.1",
     "thumbnail": "img\\carousel-images\\31.1 McCarley, Sonnie B 3, 369th Infantry, Croix de Guerre, National Archives.png",
     "detailImages": [
@@ -927,8 +927,8 @@
     "person": "George A. Thompson",
     "label": "Naples, Italy",
     "id": 122,
-    "top": 800,
-    "left": 800,
+    "top": 280,
+    "left": 860,
     "photoId": "32.1",
     "thumbnail": "img\\carousel-images\\32.1 370th in Italy.png",
     "detailImages": [
@@ -951,8 +951,8 @@
     "person": "William C. Allen",
     "label": "Saint-Mihiel, France",
     "id": 127,
-    "top": 800,
-    "left": 800,
+    "top": 240,
+    "left": 830,
     "photoId": "34.1",
     "thumbnail": "img\\carousel-images\\34.1 Allen, 2nd Lt. Will C. Source-  Ancestry copy.png",
     "detailImages": [
