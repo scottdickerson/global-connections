@@ -5,12 +5,14 @@ import "./SiteStar.css";
 
 const SiteStar = props => {
   const { active, top, left } = props;
+  const windowHeight = window.screen.availHeight;
+  const windowWidth = window.screen.availWidth;
   const imgSrc = active ? "Star-LIT.png" : "Star-50percentLIT.png";
   const style = {
     position: "absolute",
     opacity: 1,
-    top: top - 32, // adjust for star height
-    left: left - 32 // adjust for star width
+    top: (top * windowHeight) / 900 - 32, // adjust for star height, original measurements were on a 1600x900 monitor
+    left: (left * windowWidth) / 1600 - 32 // adjust for star width
   };
   return (
     <img
