@@ -4,6 +4,7 @@ const HtmlWebpackPlugin = require("html-webpack-plugin");
 const config = {
   // absolute path for project root
   context: path.resolve(__dirname, "src"),
+  mode: "development",
 
   entry: {
     // relative path declaration

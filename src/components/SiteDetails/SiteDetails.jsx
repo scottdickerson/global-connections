@@ -1,6 +1,7 @@
 import React, { Component, Fragment } from "react";
 import PropTypes from "prop-types";
 import { CSSTransition } from "react-transition-group";
+import _ from "lodash";
 import DetailCarousel from "../DetailCarousel/DetailCarousel";
 import Details from "../Details/Details";
 import MoreInfo from "../MoreInfo/MoreInfo";
@@ -20,6 +21,13 @@ class SiteDetails extends Component {
       imageIndex: 0,
       moreDetails: false
     };
+  }
+
+  componentDidUpdate(prevProps) {
+    const { selectedSite } = this.props;
+    if (!_.isEqual(prevProps.selectedSite, selectedSite)) {
+      this.setState({ imageIndex: 0, moreDetails: false }); //eslint-disable-line
+    }
   }
 
   onImageChanged = image => {

@@ -32,22 +32,27 @@ const settings = {
 
 const DetailCarousel = props => {
   const { detailImages, onImageChanged } = props;
+  const imagesMap = detailImages.map((imageDetails, key) => (
+    <div key={`details-${imageDetails.caption}`}>
+      <img
+        className="image"
+        draggable="false"
+        key={`imageDetail${imageDetails.caption}`}
+        id={key}
+        src={imageDetails.src}
+        alt={imageDetails.caption}
+      />
+    </div>
+  ));
   return (
     <div className="detailImageCarousel">
-      <Slider {...settings} afterChange={onImageChanged}>
-        {detailImages.map((imageDetails, key) => (
-          <div key={`details-${imageDetails.caption}`}>
-            <img
-              className="image"
-              draggable="false"
-              key={`imageDetail${imageDetails.caption}`}
-              id={key}
-              src={imageDetails.src}
-              alt={imageDetails.caption}
-            />
-          </div>
-        ))}
-      </Slider>
+      {detailImages.length > 1 ? (
+        <Slider {...settings} afterChange={onImageChanged}>
+          {imagesMap}
+        </Slider>
+      ) : (
+        imagesMap
+      )}
     </div>
   );
 };
