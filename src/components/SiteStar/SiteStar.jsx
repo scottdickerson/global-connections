@@ -5,8 +5,8 @@ import "./SiteStar.css";
 
 const SiteStar = props => {
   const { active, top, left } = props;
-  const windowHeight = window.screen.availHeight;
-  const windowWidth = window.screen.availWidth;
+  const windowHeight = window.screen.height;
+  const windowWidth = window.screen.width;
   const imgSrc = active ? "Star-LIT.png" : "Star-50percentLIT.png";
   const style = {
     position: "absolute",
