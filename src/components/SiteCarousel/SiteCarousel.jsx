@@ -78,7 +78,7 @@ class SiteCarousel extends React.Component {
           className="siteCarousel"
           style={{
             width: `${this.settings.slidesToShow === 3 ? 65 : 95}%`,
-            left: `${this.settings.slidesToShow === 3 ? 3.5 : 3}%`
+            left: `${this.settings.slidesToShow === 3 ? 3.5 : 1}%`
           }}
         >
           <Slider
