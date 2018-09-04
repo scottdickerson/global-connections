@@ -60,7 +60,7 @@
     "top": 375,
     "left": 350,
     "photoId": "4.0",
-    "thumbnail": "img\\carousel-images\\4.0 John B. Hall Jefferson_Davis_1853_daguerreotype-restored.png",
+    "thumbnail": "img\\carousel-images\\4.0 storming of Palace Hill at the Battle of Monterey by Tompkins Harrison Mattesonc1855.png",
     "detailImages": [
       {
         "src": "img\\details-images\\4.0 storming of palace hill at the battle of monterey by tompkins harrison matteson, c. 1855.jpg",
@@ -258,7 +258,7 @@
     "learnMore": "Chesley M. Adams was born in 1892 in Harrison County, Texas and entered military service in 1917. That same year he graduated with the first officer's training class at Leon Springs, Texas as a second lieutenant in the U.S. Army. These young officers became known as the \"90-Day Wonders\" because they completed their training in three months.  Adams went on to serve with the 90th Infantry Division in Europe during World War I. He returned to active duty in 1942 during World War II serving in Puerto Rico.\n\nThe early years of World War II demonstrated the importance of protecting the shipping lines through the Caribbean Sea to the southern United States and Central and South America. German U-boat crews had already sunk over a million tons of United States and Allied cargo and petroleum. Puerto Rico was chosen as the base of operations to protect the Caribbean. By 1943 there were over 50,000 U.S. military personnel serving around the island on Army, Army Air Forces and Navy bases. \n\nIn 1940, when Germany attacked Great Britain, the United States feared that if Germany controlled Great Britain, then Mexico and the United States would be next. In the same year, President Roosevelt ordered the construction of a naval base in the Atlantic similar to Pearl Harbor in Hawaii. A site near Ceiba, in northeast Puerto Rico, was chosen for the new naval base. The site was meant to provide anchorage, docking, repair facilities, fuel, and supplies for 60 percent of the Atlantic Fleet. Named to honor Franklin D. Roosevelt, the U.S. Naval Base Roosevelt Roads, became the largest naval installation in the world in landmass. However, with the defeat of Germany in 1945, the United States concentrated all of their efforts on the war in the Pacific. In May 2003, after six decades of existence, the U.S. Navy officially closed the base.\n\nAdams, who served 33 years in the U.S. Army, retired in May 1953 at the rank of colonel and returned to the land settled by his Adams family in 1841 in Marshall, Texas.\n\nSources:  HCHM Archive; \"The Role of Puerto Rico in the United States National Security Strategy\" by Colonel Eli Ballard, dtic.mil. \"Roosevelt Roads Naval Station,\" wikipedia.org"
   },
   {
-    "person": "Donald Norman Cameron",
+    "person": "Donald N. Cameron",
     "label": "Luzon, Philippines",
     "id": 27,
     "top": 400,
@@ -474,7 +474,7 @@
     "learnMore": "On December 7, 1940, Cecil Hollingshead shipped out to Pearl Harbor, Hawaii with the U.S. Navy aboard the USS Oklahoma. Exactly one year later, that date took on a whole new meaning for him and all our military stationed there--and all of America--as the Japanese sneak attack on Pearl Harbor brought the U.S. into World War II.\n\nIt was the dawn of a peaceful Sunday at Pearl Harbor for the young sailor from Texas.  Hollingshead remembered:\n\n\"It was about 8:00 in the morning and I stepped out the barracks door headed for the PX for breakfast.  And I heard the explosions from the hangar area that was maybe about 200 yards from the barracks. I made a left turn and made a run to the hangars and the Japanese were strafing.\" \n\nHollingshead grabbed a machine gun from weapons storage. Other men removed machine guns and ammunition out of the military airplanes that were being destroyed.  These would be needed to fight the next wave of Japanese fighters.  He said:\n\n\"We didn't have any gun mounts. One person would hold the gun on their shoulder. Another would fire the gun. We managed to knock down, I think, two planes.\" \n\nHollingshead still has a small piece of one of those Japanese attack planes, along with shrapnel from one of the Japanese bombs that left him slightly injured as he ran for cover. He even has the letter he wrote home to his mother telling her about it.\n\n\"I was hit a couple of times Sunday,\" said Hollingshead. \"But they were only grazes and I have long since healed. Something was taking care of me that day.\"\n\nHe survived, but more than 3,000 of his fellow servicemen did not. The U.S. Pacific Fleet lost battleships, cruisers, and destroyers --18 ships in all -- including the ship Hollingshead was assigned to, the USS Oklahoma. About 350 warplanes were also lost. Hollingshead would serve in the South Pacific during the war. \n\nAfter the war, Hollingshead became an engineer, worked in the East Texas oilfields and then moved to Harrison County, Texas working for Thiokol Corporation, the contractor operator at Longhorn Army Ammunition Plant in Karnack, Texas.\n\nAdapted from \"Cecil Hollingshead Survived Pearl Harbor\" by Gerry May, KTBS-TV, Shreveport, Louisiana."
   },
   {
-    "person": "Myrtle Dinkle McLeroy",
+    "person": "Myrtle D. McLeroy",
     "label": "Papua New Guinea",
     "id": 58,
     "top": 520,
@@ -485,7 +485,7 @@
       {
         "src": "img\\details-images\\17.1 McElroy, Bettye Dinkle WAC Pvt Home on Visit, WWII, 1944 600 dpi Front.png",
         "title": "World War II",
-        "caption": "Myrtle Dinkle McLeroy poses with family members while on a visit during World War II. McElroy served in New Guinea as a medical technician.",
+        "caption": "Myrtle Dinkle McLeroy poses with family members while on a visit during World War II. McLeroy served in New Guinea as a medical technician.",
         "credit": "Myrtle Dinkle McLeroy and Family, 1944 | HCHM Collections"
       },
       {
@@ -520,7 +520,7 @@
       },
       {
         "src": "img\\details-images\\18.2 Slone, Emory Dale, Japanese ship captain Shunsaku_Kudo Wikipedia Public Domain.png",
-        "title": "",
+        "title": "World War II",
         "caption": "The Japanese destroyer Ikazuchi rescued the 442 survivors from Pope and Encounter. This humanitarian decision by Japanese commander, Shunsaku Kudō, placed his ship at risk of attack and fighting ability.",
         "credit": "Shunsaku Kudō, 1940s | Public Domain"
       }
@@ -544,7 +544,7 @@
       },
       {
         "src": "img\\details-images\\19.2  Morgan, Jr.png",
-        "title": "",
+        "title": "World War II",
         "caption": "Alvin Morgan was among the “Lost Battalion” of soldiers captured by the Japanese at Java.",
         "credit": "Isaac Alvin Morgan, Jr., 1940s | HCHM Collections"
       },
@@ -647,14 +647,14 @@
       {
         "src": "img\\details-images\\23.1 Vernon L.png",
         "title": "Vietnam War",
-        "caption": "Vernon Lewis Jr. served in Vietnam and became a Brigadier General.",
-        "credit": "Vernon Lewis, 1973 | HCHM Collections"
+        "caption": "Vernon Lewis (on front right) and all the other commanders of the 82nd Airborne Division became generals.",
+        "credit": "Vernon Lewis & Fellow Commanders, 1973 | HCHM Collections"
       },
       {
         "src": "img\\details-images\\23.2 Lewis, Vernon, 1977 at retirment with General Edward Meyer.png",
         "title": "Vietnam War",
-        "caption": "Vernon Lewis (on front right) and all the other commanders of the 82nd Airborne Division became generals.",
-        "credit": "Vernon Lewis & Fellow Commanders, 1973 | HCHM Collections"
+        "caption": "Vernon Lewis Jr. served in Vietnam and became a Brigadier General.",
+        "credit": "Vernon Lewis, 1973 | HCHM Collections"
       },
       {
         "src": "img\\details-images\\23.3 Lewis, Vernon, 1973, FRONT, Lewis on Right, Commanders of 82nd Airborne Division, All became generals, HCHM Collection.jpg",
@@ -664,7 +664,7 @@
       },
       {
         "src": "img\\details-images\\23.4 Vernon Lewis 2nd battallion 77th field artillery vietnam.png",
-        "title": "",
+        "title": "Vietnam War",
         "caption": "Vernon Lewis Jr. served in Vietnam as commander of the 2nd Battalion, 77th Field Artillery Regiment. You can see their battle-scarred flag in this exhibit.",
         "credit": "2nd Battalion, 77th Field Artillery, 1960s | Public Domain"
       }
@@ -701,7 +701,7 @@
       {
         "src": "img\\details-images\\24.4 NICKERSON012, Vietnam, Family Photo.png",
         "title": "Vietnam War",
-        "caption": "Nickerson participated in the implementation of the new concept of \"airmobility\"--using helicopters to transport troops to combat zones",
+        "caption": "Nickerson participated in the implementation of the new concept of \"airmobility\" - using helicopters to transport troops to combat zones",
         "credit": "Johnny Nickerson and Friends, 1960s | HCHM Collections"
       },
       {
@@ -714,7 +714,7 @@
     "learnMore": "Johnny F. Nickerson served with the 101st Cavalry Division (Airmobile) in Vietnam. He entered service in spring 1966 and by summer 1967 was awarded an Air Medal for participating in 25 aerial missions over hostile territory in Vietnam\n\nHe participated in the implementation of the new concept of \"airmobility\" -- using helicopters to transport troops to combat zones -- that was pioneered with the 1st Cavalry Division (Airmobile) in Vietnam. The use of helicopters was hailed as significant an advancement in moving combat troops as the change from the horse to the truck. The change was a coming together of an idea, technology, and military tactics. In the Korean War, the mountainous terrain and large number of enemy troops was presenting difficulties for the U.S. forces even though they were better trained and had superior firepower. The idea of using helicopters to move troops in combat zones was born as military officers watched small observation helicopters become ambulances evacuating wounded Marines out of Korea's steep mountains and deep valleys. They thought helicopters could be a solution to moving troops to and from combat zones that were hard to maneuver through on the ground.\n\nTechnology was making the helicopter more powerful and dependable. In the 1960s, Army engineers and technicians found a way to arm the helicopter to protect the machine and its troops as they approached combat. Helicopters and the airmobility theory was tested. Then, in July 1965 the 101st Cavalry Division (Airmobile) was activated and began arriving at An Khe, Vietnam in August. They converted the local golf course into what would become the world's largest helipad for Huey and Chinook helicopters. In Vietnam, helicopters and troops swiftly and directly moved to their objective regardless of terrain and enemy troop concentrations.\n\nSergeant Nickerson was awarded a Bronze Star with V for bravery and a Purple Heart for wounds received in action May 9, 1967.\n\nHe is a 1963 graduate of Marshall's Pemberton High School.\n\nSources: HCHM Archive;  \"Vietnam Studies:  Air Mobility,\" 1961-1971 by  Lt. Gen. John J. Tolson;  Vietnam Order of Battle by Captain Shelby L. Stanton."
   },
   {
-    "person": "James Wimberley Lewis",
+    "person": "James W. Lewis",
     "label": "Ban Niang, Laos",
     "id": 91,
     "top": 385,
@@ -845,7 +845,7 @@
       {
         "src": "img\\details-images\\28.3 Raines, Harold Battle_of_Inchon Public Domain.png",
         "title": "Korean War",
-        "caption": "His ship was stationed at Inchon. Raines was on staff of the ship commander",
+        "caption": "His ship was stationed at Inchon. Raines was on the staff of the ship commander",
         "credit": "Battle of Inchon, 1950s | Public Domain"
       },
       {
@@ -1102,13 +1102,13 @@
       },
       {
         "src": "img\\details-images\\38.2 Wesley, Arthur Lee,  Principal,  Courtesy Dora Wesley Morris.png",
-        "title": "",
+        "title": "World War II",
         "caption": "Wesley received an honorable discharge on December 5, l945.  He then served as a first sergeant in the United States Army Reserve.",
         "credit": "Arthur Lee Wesley, 1990s | Courtesy Dora Wesley"
       },
       {
         "src": "img\\details-images\\38.3 Wesley, Arthur Lee 2 Courtesy Dora Wesley Morris.png",
-        "title": "",
+        "title": "World War II",
         "caption": "Later in life, Wesley inspired young people as principal of Jefferson Junior High School.",
         "credit": "Arthur Lee Wesley, 1990s | Courtesy Dora Wesley"
       }
@@ -1481,7 +1481,7 @@
       {
         "src": "img\\details-images\\51.2 Petties, Zachary with Iraqi children.png",
         "title": "Global War on Terrorism",
-        "caption": "Petties’ platoon's also worked to build relationships with the community.  They reached out to the villagers and their elders. They gave gifts to local children.",
+        "caption": "Petties’ platoon also worked to build relationships with the community.  They reached out to the villagers and their elders. They gave gifts to local children.",
         "credit": "Zachary Petties With Iraqi Children, 2004 | HCHM Collections"
       },
       {
@@ -1504,7 +1504,7 @@
     "detailImages": [
       {
         "src": "img\\details-images\\52.1 guigni, ANGELA, 2000s, Courtesy Elysian Field ISD.png",
-        "title": "",
+        "title": "Global War on Terrorism ",
         "caption": "Angela Guigni served with the U.S. Army. Her unit deployed to Iraq. In 2006, Guigni was awarded a Combat Action Badge for performing duties in a hostile area.",
         "credit": "Angela Guigni, 2006 | Courtesy Elysian Fields ISD"
       }
@@ -1559,7 +1559,7 @@
       {
         "src": "img\\details-images\\54.2 Marshall, Jeffrey C-17 deploying paratroopers, 2010 public domain.png",
         "title": "Global War on Terrorism",
-        "caption": "Marshall, a command pilot, flew the three-crew C-17A Globemaster III transport aircraft, The aircraft could carry 102 troops or paratroops, 48 litters and 54 ambulatory patients and attendants, and 170,900 pounds  of cargo.",
+        "caption": "Marshall, a command pilot, flew the three-crew C-17A Globemaster III transport aircraft. The aircraft could carry 102 troops or paratroops, 48 litters and 54 ambulatory patients and attendants, and 170,900 pounds of cargo.",
         "credit": "C-17A Transport | Courtesy Jeffrey M. Marshall"
       },
       {
