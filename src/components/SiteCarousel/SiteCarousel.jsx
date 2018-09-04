@@ -45,6 +45,10 @@ class SiteCarousel extends React.Component {
     };
   }
 
+  componentWillUnmount() {
+    clearTimeout(this.swipeTimeout);
+  }
+
   swiped = () => {
     this.recentlySwiped = true;
     clearTimeout(this.swipeTimeout);
