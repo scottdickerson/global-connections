@@ -87,9 +87,9 @@ class SiteDetails extends Component {
             />
           ) : (
             <img
-              src="img/site-details/Button-BackArrow.png"
+              src="img/site-details/Button-Close-X.png"
               alt="Back"
-              className="backButton"
+              className="closeButton"
               onClick={this.toggleMoreDetails}
             />
           )}

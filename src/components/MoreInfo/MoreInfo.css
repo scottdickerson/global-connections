@@ -1,6 +1,8 @@
 .moreInfo {
   display: flex;
   flex-flow: column nowrap;
+  color: #d9d0ad;
+  font-family: LiberationSans;
   justify-content: start;
   align-items: center;
   width: 100%;
@@ -13,6 +15,10 @@
   flex-flow: column nowrap;
   overflow-y: auto;
   overflow-x: hidden;
+  font-size: 18px;
+  height: 170px;
+  font-weight: 200;
+  line-height: 1.5rem;
 }
 
 .moreInfoImage {
@@ -21,10 +27,9 @@
 }
 
 .moreInfoPerson {
-  font-family: LiberationSans;
   font-size: 24px;
+  font-family: LiberationSans;
   font-weight: 600;
-  letter-spacing: 1px;
   text-shadow: black 0.1em 0.1em 0.4em;
   text-align: center;
   padding-bottom: 1rem;
