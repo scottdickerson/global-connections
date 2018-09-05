@@ -37,7 +37,6 @@ class SiteDetails extends Component {
   };
 
   toggleMoreDetails = () => {
-    console.log("toggle More Details");
     this.setState(state => ({
       moreDetails: !state.moreDetails
     }));

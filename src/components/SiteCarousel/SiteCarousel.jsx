@@ -7,6 +7,7 @@ import "slick-carousel/slick/slick-theme.css";
 
 import "./SiteCarousel.css";
 import SiteOverview from "../SiteOverview/SiteOverview";
+import SiteSlide from "../SiteSlide/SiteSlide";
 import AllSitesOverview from "../AllSitesOverview/AllSitesOverview";
 
 import SiteSchema from "../../schemas/site";
@@ -91,20 +92,12 @@ class SiteCarousel extends React.Component {
             beforeChange={siteChanged}
             onSwipe={this.swiped}
           >
-            {sites.map((site, key) => (
-              <div
-                className="slide"
+            {sites.map(site => (
+              <SiteSlide
+                {...site}
                 key={`div-${site.id}`}
-                onClick={() => this.siteTapped(site.id)}
-              >
-                <img
-                  draggable="false"
-                  id={key}
-                  className="innerSlide"
-                  src={site.thumbnail}
-                  alt={site.person}
-                />
-              </div>
+                onClick={this.siteTapped}
+              />
             ))}
           </Slider>
         </div>

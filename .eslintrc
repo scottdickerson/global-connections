@@ -11,7 +11,7 @@
     "jest": true,
     "browser": true
   },
-  "plugins": ["react"],
+  "plugins": ["@babel/react"],
   "rules": {
     "no-console": 0,
     "no-tabs": 0,
