@@ -1,4 +1,5 @@
 import _ from "lodash";
+import globalSites from "../globalSites.json";
 import { loadGlobalConnections, findPhotoFile } from "../csvTransformUtils";
 
 describe(`csvTransformUtils`, () => {
@@ -33,5 +34,13 @@ describe(`csvTransformUtils`, () => {
     }));
   test("findPhotoFile", () => {
     expect(findPhotoFile("4.0")).toBeDefined();
+  });
+  test("long credit", () => {
+    globalSites.map(globalSite =>
+      globalSite.detailImages.map(detailImage => {
+        console.log(detailImage.credit);
+        expect(detailImage.credit.length < 79).toEqual(true);
+      })
+    );
   });
 });

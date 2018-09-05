@@ -63,6 +63,7 @@
   font-size: 15px;
   padding: 2rem 4rem;
   align-self: flex-start;
+  white-space: nowrap;
 }
 .moreDetailsImage {
   text-align: left;
