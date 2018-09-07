@@ -29,8 +29,10 @@ class App extends Component {
   waitForIdle = () => {
     if (this.idleTimeout) {
       clearTimeout(this.idleTimeout);
+      clearTimeout(this.resetTimeout);
     }
     this.idleTimeout = setTimeout(this.resetState, 180000);
+    this.resetTimeout = setTimeout(() => window.location.reload(), 1200000);
   };
 
   resetState = () => {
