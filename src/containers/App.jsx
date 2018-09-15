@@ -16,6 +16,7 @@ class App extends Component {
   componentDidMount() {
     this.clickListener = document.addEventListener("click", this.waitForIdle);
     this.tapListener = document.addEventListener("touchEnd", this.waitForIdle);
+    this.waitForIdle();
   }
 
   componentWillUnmount() {
@@ -31,8 +32,8 @@ class App extends Component {
       clearTimeout(this.idleTimeout);
       clearTimeout(this.resetTimeout);
     }
-    this.idleTimeout = setTimeout(this.resetState, 180000);
-    this.resetTimeout = setTimeout(() => window.location.reload(), 1200000);
+    this.idleTimeout = setTimeout(() => this.resetState(), 180000);
+    this.resetTimeout = setTimeout(() => window.location.reload(true), 360000);
   };
 
   resetState = () => {
