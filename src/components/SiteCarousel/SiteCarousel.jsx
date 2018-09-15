@@ -58,10 +58,10 @@ class SiteCarousel extends React.Component {
     }, 300);
   };
 
-  siteTapped = id => {
+  siteTapped = (id, event) => {
     const { siteTapped } = this.props;
     if (!this.recentlySwiped) {
-      siteTapped(id);
+      siteTapped(id, event);
     }
   };
 

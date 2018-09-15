@@ -9,9 +9,9 @@ class SiteSlide extends Component {
     onClick: PropTypes.func.isRequired
   };
 
-  handleClick = () => {
+  handleClick = event => {
     const { id, onClick } = this.props;
-    onClick(id);
+    onClick(id, event);
   };
 
   render() {

@@ -39,9 +39,14 @@ class App extends Component {
     this.setState({ isSiteOpen: false });
   };
 
-  handleSiteToggle = siteId => {
+  handleSiteToggle = (siteId, event) => {
     const { isSiteOpen, selectedSite } = this.state;
     if (isSiteOpen || selectedSite.id === siteId) {
+      if (event) {
+        // workaround to prevent infinite loop
+        event.stopPropagation();
+        event.preventDefault();
+      }
       this.setState(state => ({ isSiteOpen: !state.isSiteOpen }));
     }
   };
