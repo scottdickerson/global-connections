@@ -30,6 +30,7 @@
     "babel-plugin-transform-class-properties": "^6.24.1",
     "babel-preset-env": "^1.7.0",
     "babel-preset-stage-0": "^6.24.1",
+    "docxtemplater": "^3.9.0",
     "eslint": "^5.5.0",
     "eslint-config-airbnb": "^17.1.0",
     "eslint-config-google": "^0.9.1",
@@ -39,6 +40,7 @@
     "eslint-plugin-react": "^7.11.1",
     "file-loader": "^2.0.0",
     "html-webpack-plugin": "^3.2.0",
+    "jszip": "2",
     "react-cosmos": "^4.6.4",
     "react-scripts": "^1.1.5",
     "serve": "^10.0.0",
@@ -51,6 +53,7 @@
     "eject": "react-scripts eject",
     "lint": "eslint src --ext .js,.jsx --fix",
     "generateSites": "babel-node src/sites/generateSitesFile.js",
+    "generateWordDocument": "node src/sites/generateDocxFile.js",
     "cosmos": "cosmos",
     "cosmos:export": "cosmos-export"
   }
