@@ -17,7 +17,8 @@ const config = {
     filename: "./assets/js/[name].bundle.js"
   },
   resolve: {
-    extensions: [".js", ".jsx"]
+    extensions: [".js", ".jsx", ".css"],
+    modules: ["node_modules"]
   },
 
   module: {

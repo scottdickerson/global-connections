@@ -1,14 +1,15 @@
 import React from "react";
 import PropTypes from "prop-types";
 import "./Details.css";
+import ReactHTMLParser from "react-html-parser";
 
 const propTypes = {
-  label: PropTypes.string.isRequired,
-  person: PropTypes.string.isRequired,
-  title: PropTypes.string.isRequired,
-  caption: PropTypes.string.isRequired,
-  credit: PropTypes.string.isRequired,
-  learnMore: PropTypes.string,
+  label: PropTypes.node.isRequired,
+  person: PropTypes.node.isRequired,
+  title: PropTypes.node.isRequired,
+  caption: PropTypes.node.isRequired,
+  credit: PropTypes.node.isRequired,
+  learnMore: PropTypes.node,
   onMoreDetails: PropTypes.func
 };
 
@@ -35,11 +36,13 @@ const Details = props => {
       <div className="personDetails person">{person}</div>
       <img className="separator" src="img/Lines-TwoYellowDividers.png" alt="" />
       <div className="imageDetails">
-        <p className="imageTitle">{title}</p>
-        <div className="imageCaption">{caption}</div>
+        <p className="imageTitle">{ReactHTMLParser(title)}</p>
+        <div className="imageCaption">
+          <p>{ReactHTMLParser(caption)}</p>
+        </div>
       </div>
       <img className="separator" src="img/Line-CreamDotted.png" alt="" />
-      <div className="credit">{credit}</div>
+      <div className="credit">{ReactHTMLParser(credit)}</div>
       {learnMore ? (
         <div className="moreDetailsImage">
           <img

@@ -28,13 +28,11 @@
     "@babel/cli": "^7.1.2",
     "@babel/node": "^7.0.0",
     "babel-core": "^6.26.3",
-    "babel-eslint": "babel/babel-eslint",
     "babel-loader": "^8.0.4",
     "babel-plugin-transform-class-properties": "^6.24.1",
     "babel-preset-env": "^1.7.0",
     "babel-preset-stage-0": "^6.24.1",
     "docxtemplater": "^3.9.1",
-    "eslint": "^5.7.0",
     "eslint-config-airbnb": "^17.1.0",
     "eslint-config-google": "^0.10.0",
     "eslint-config-prettier": "^3.1.0",
@@ -47,7 +45,7 @@
     "react-cosmos": "^4.6.4",
     "react-scripts": "^2.0.4",
     "serve": "^10.0.2",
-    "webpack": "4.20.2"
+    "webpack": "4.19.1"
   },
   "scripts": {
     "start": "react-scripts start",
@@ -60,5 +58,11 @@
     "updateJSONFromHTML": "babel-node src/sites/copyHTMLToJSON.js",
     "cosmos": "cosmos",
     "cosmos:export": "cosmos-export"
-  }
+  },
+  "browserslist": [
+    ">0.2%",
+    "not dead",
+    "not ie <= 11",
+    "not op_mini all"
+  ]
 }
