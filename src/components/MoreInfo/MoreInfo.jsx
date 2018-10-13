@@ -1,5 +1,6 @@
 import React from "react";
 import PropTypes from "prop-types";
+import ReactHtmlParser from "react-html-parser";
 import "./MoreInfo.css";
 
 const propTypes = {
@@ -19,11 +20,7 @@ const MoreInfo = props => {
         />
       </div>
       <span className="moreInfoPerson">{person}</span>
-      <div className="moreInfoContent">
-        {learnMore.split("\n\n").map(paragraph => (
-          <p>{paragraph}</p>
-        ))}
-      </div>
+      <div className="moreInfoContent"><p>{ReactHtmlParser(learnMore)}</p></div>
     </div>
   );
 };

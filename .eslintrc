@@ -11,7 +11,6 @@
     "jest": true,
     "browser": true
   },
-  "plugins": ["@babel/react"],
   "rules": {
     "no-console": 0,
     "no-tabs": 0,
@@ -21,8 +20,6 @@
     "jsx-a11y/click-events-have-key-events": 0,
     "jsx-a11y/media-has-caption": 0,
     "jsx-a11y/no-static-element-interactions": 0,
-    "no-nested-ternary": 0,
-    "react/jsx-indent-props": 0,
-    "react/jsx-closing-bracket-location": 0
+    "no-nested-ternary": 0
   }
 }

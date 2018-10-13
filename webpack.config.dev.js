@@ -26,13 +26,14 @@ const config = {
       {
         test: /\.jsx?$/,
         include: /src/,
-        exclude: /node_modules/,
+        exclude: [/node_modules/, /.git/],
         use: { loader: "babel-loader" }
       },
       // html-loader
       {
         test: /\.html$/,
         include: /src/,
+        exclude: [/node_modules/, /.git/],
         use: ["html-loader"]
       },
       // sass-loader with sourceMap activated
@@ -41,6 +42,7 @@ const config = {
       {
         test: /\.(jpg|png|gif|svg)$/,
         include: [/src/, /node_modules/],
+        exclude: [/.git/],
         use: [
           {
             loader: "file-loader",
@@ -52,12 +54,14 @@ const config = {
       {
         test: /\.css$/,
         include: [/src/, /node_modules/],
+        exclude: [/.git/],
         use: ["style-loader", "css-loader"]
       },
       // file-loader(for fonts)
       {
         test: /\.(woff|woff2|eot|ttf|otf)$/,
         include: [/src/, /node_modules/],
+        exclude: [/.git/],
         use: ["file-loader"]
       }
     ]
