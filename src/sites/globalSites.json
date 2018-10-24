@@ -510,8 +510,15 @@
     "top": 520,
     "left": 1340,
     "photoId": "18.1",
-    "thumbnail": "img\\carousel-images\\18.1 USS Pope.png",
+    "thumbnail": "img\\carousel-images\\18.0 EmoryDaleStone.png",
     "detailImages": [
+      {
+        "src": "img\\details-images\\18.0 EmoryDaleSlone.png",
+        "title": "World War II",
+        "caption": "Emory Dale Slone from Harleton was the chief storekeeper aboard the U.S. Navy destroyer USS Pope and was a prisoner of war from March 1942 until liberated by U.S. forces in September 1945. He continued to serve in the Navy until 1957.",
+        "credit": "Emory Dale Slone, 1950s | HCHM Collections"
+      },
+
       {
         "src": "img\\details-images\\18.1 USS Pope.png",
         "title": "World War II",
@@ -933,7 +940,7 @@
     "thumbnail": "img\\carousel-images\\32.1 370th in Italy.png",
     "detailImages": [
       {
-        "src": "img\\details-images\\32.1  92nd-Infantry-DivisionPoval italy.png",
+        "src": "img\\details-images\\32.1 ThompasonGeorgeA-AfricanAmericans-WWII-029.png",
         "title": "World War II",
         "caption": "George Thompson served as a wire crewman with the 370th Infantry Regiment, 93rd Infantry Division.",
         "credit": "93rd Infantry Division, 1940s | Public Domain"
