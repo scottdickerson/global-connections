@@ -44,7 +44,7 @@
     "jszip": "3.1.5",
     "react-cosmos": "^4.6.4",
     "react-scripts": "^2.0.4",
-    "serve": "^10.0.2",
+    "serve": "^10.1.2",
     "webpack": "4.19.1"
   },
   "scripts": {
